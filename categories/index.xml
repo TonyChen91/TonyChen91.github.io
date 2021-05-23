@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Mekaku&#39;s Site</title>
+    <link>https://TonyChen91.github.io/categories/</link>
+    <description>Recent content in Categories on Mekaku&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 May 2021 13:52:26 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>手札</title>
+      <link>https://TonyChen91.github.io/categories/%E6%89%8B%E6%9C%AD/</link>
+      <pubDate>Sun, 23 May 2021 13:52:26 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/categories/%E6%89%8B%E6%9C%AD/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>升學</title>
+      <link>https://TonyChen91.github.io/categories/%E5%8D%87%E5%AD%B8/</link>
+      <pubDate>Sun, 23 May 2021 13:23:55 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/categories/%E5%8D%87%E5%AD%B8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>其他</title>
+      <link>https://TonyChen91.github.io/categories/%E5%85%B6%E4%BB%96/</link>
+      <pubDate>Fri, 21 May 2021 16:14:05 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/categories/%E5%85%B6%E4%BB%96/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

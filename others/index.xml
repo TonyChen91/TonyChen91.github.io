@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on Mekaku&#39;s Site</title>
+    <link>https://TonyChen91.github.io/others/</link>
+    <description>Recent content in Others on Mekaku&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 May 2021 15:12:58 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/others/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>網頁日誌</title>
+      <link>https://TonyChen91.github.io/others/webhistory/</link>
+      <pubDate>Sun, 23 May 2021 15:12:58 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/others/webhistory/</guid>
+      <description>5/20- 嘗試將空白網頁放置在Github上
+5/21- 上網研究Hugo 完成雛型
+5/22- 太晚起床 完成幾篇文章和About Us 研究Markdown CSS Boostrap
+5/23- 在首頁設置 所有文章的分類
+未完成清單
+ 將文章的照片等比例縮放 設置活動頁面 手機版網頁顯示問題  </description>
+    </item>
+    
+    <item>
+      <title>Codes</title>
+      <link>https://TonyChen91.github.io/others/codes/</link>
+      <pubDate>Sat, 22 May 2021 20:28:59 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/others/codes/</guid>
+      <description>使用 Markdown1可以效率的书写文档, 直接转换成 HTML, 你可以使用简书或者支持Markdown的编辑器进行书写。
+This link has no title attribute.
+我是藍色 我是標楷體 我是宋體 粗體
+斜體
+刪除縣
+*正常米字號
+尚須研究Hugo/CSS/markdown這邊有分段符號(兩個空白)
+尚須研究Hugo/CSS/markdown這邊有分段符號(空一行)
+尚須研究Hugo/CSS/markdown這邊沒有 尚須研究Hugo/CSS/markdown這邊沒有 尚須研究Hugo/CSS/markdown這邊沒有
+© 這是符號
+分隔線
+  引言失敗不知道為什麼。
+  代辦事項 已完成  s = &amp;#34;Python syntax highlighting&amp;#34; print s  尚須研究Hugo/CSS/markdown這邊沒有
+尚須研究Hugo/CSS/markdown這邊沒有
+  Markdown是一种纯文本标记语言&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title>分享一下最近聽到很好聽的歌</title>
+      <link>https://TonyChen91.github.io/others/c/</link>
+      <pubDate>Fri, 21 May 2021 16:14:05 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/others/c/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>

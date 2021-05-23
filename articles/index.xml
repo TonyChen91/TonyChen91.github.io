@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Mekaku&#39;s Site</title>
+    <link>https://TonyChen91.github.io/articles/</link>
+    <description>Recent content in Articles on Mekaku&#39;s Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 May 2021 13:52:26 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什麼是民主化浪潮? 淺談民主化與其逆流</title>
+      <link>https://TonyChen91.github.io/articles/democr/</link>
+      <pubDate>Sun, 23 May 2021 13:52:26 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/articles/democr/</guid>
+      <description>* 以下是文章精華版的檔案:
+* 檔案連結
+
+什麼是民主
+ 
+三波民主化浪潮
+ 
+民主化四過程
+ 
+民主化發生的原因
+ 
+民主化逆流
+ 
+台灣的民主化浪潮
+ </description>
+    </item>
+    
+    <item>
+      <title>電視劇 頂層公寓/上流社會: 我們看到了什麼?</title>
+      <link>https://TonyChen91.github.io/articles/phouse/</link>
+      <pubDate>Sat, 22 May 2021 11:22:25 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/articles/phouse/</guid>
+      <description>還沒有內文所以我先隨便放影片
+然後我很喜歡秀蓮
+  </description>
+    </item>
+    
+    <item>
+      <title>Catan:卡坦島為什麼吸引我?</title>
+      <link>https://TonyChen91.github.io/articles/catan/</link>
+      <pubDate>Sat, 22 May 2021 11:22:07 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/articles/catan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>教學: 如何使用Hugo在Github部屬網站?</title>
+      <link>https://TonyChen91.github.io/articles/hugow/</link>
+      <pubDate>Fri, 21 May 2021 16:19:20 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/articles/hugow/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
