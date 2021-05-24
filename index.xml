@@ -6,21 +6,7 @@
     <description>Recent content on Mekaku&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 May 2021 15:12:58 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>網頁日誌</title>
-      <link>https://TonyChen91.github.io/others/webhistory/</link>
-      <pubDate>Sun, 23 May 2021 15:12:58 +0800</pubDate>
-      
-      <guid>https://TonyChen91.github.io/others/webhistory/</guid>
-      <description>5/20- 嘗試將空白網頁放置在Github上
-5/21- 上網研究Hugo 完成雛型
-5/22- 太晚起床 完成幾篇文章和About Us 研究Markdown CSS Boostrap
-5/23- 在首頁設置 所有文章的分類
-未完成清單
- 將文章的照片等比例縮放 設置活動頁面 手機版網頁顯示問題  </description>
-    </item>
-    
+    <lastBuildDate>Sun, 23 May 2021 13:52:26 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>什麼是民主化浪潮? 淺談民主化與其逆流</title>
       <link>https://TonyChen91.github.io/articles/democr/</link>
@@ -113,6 +99,24 @@ This link has no title attribute.
       
       <guid>https://TonyChen91.github.io/others/c/</guid>
       <description>   </description>
+    </item>
+    
+    <item>
+      <title>網頁日誌</title>
+      <link>https://TonyChen91.github.io/others/webhistory/</link>
+      <pubDate>Thu, 20 May 2021 15:12:58 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/others/webhistory/</guid>
+      <description>5/20- 嘗試將空白網頁放置在Github上
+5/21- 上網研究Hugo 完成雛型
+5/22- 太晚起床 完成幾篇文章和About Us 研究Markdown.CSS.Boostrap
+5/23- 在首頁設置 所有文章的分類 list頁更新 研究Git指令
+Version 1.0 Release.
+5/24- 玩山中小屋桌遊耗太多時間. Bug fixed(網頁邊界留白、網頁標籤)
+修正手機板HeadTitle Nav問題 Version 1.1 Release.
+未完成清單
+ 將文章的照片等比例縮放 設置活動頁面 手機版網頁顯示問題 研究Tailwind語法 看Mooc的普通化學 為ReadingNotAlone寫網頁
+已知Bug 在list頁手機板問題 nav的引導以及手機板問題 所有文章-&amp;gt;最新文章  </description>
     </item>
     
     <item>
