@@ -107,16 +107,18 @@ This link has no title attribute.
       <pubDate>Thu, 20 May 2021 15:12:58 +0800</pubDate>
       
       <guid>https://TonyChen91.github.io/others/webhistory/</guid>
-      <description>5/20- 嘗試將空白網頁放置在Github上
-5/21- 上網研究Hugo 完成雛型
-5/22- 太晚起床 完成幾篇文章和About Us 研究Markdown.CSS.Boostrap
-5/23- 在首頁設置 所有文章的分類 list頁更新 研究Git指令
-Version 1.0 Release.
-5/24- 玩山中小屋桌遊耗太多時間. Bug fixed(網頁邊界留白、網頁標籤)
-修正手機板HeadTitle Nav問題 Version 1.1 Release.
+      <description>5/20- 嘗試將空白網頁放置在Github上 5/21- /hugo commands.
+Release Prototpye 5/22- 太晚起床 Finish text of Articles.About Us 研究Markdown.CSS.Bootstrap 5/23- Put site on github.io add Articles&#39; taxonomies.
+update layout of list/single pages
+/git commands
+Version 1.0 Release. 5/24- 玩山中小屋桌遊耗太多時間.
+Bug fixed(網頁邊界留白、網頁標籤) Fix mobile device HeadTitle.Nav text bug Version 1.1 Release.
+5/25- Tailwind優化首頁hover視覺
+Footer add -Version text
+Add Viewers counter on webhistory page.
+Version 1.2 Release.
 未完成清單
- 將文章的照片等比例縮放 設置活動頁面 手機版網頁顯示問題 研究Tailwind語法 看Mooc的普通化學 為ReadingNotAlone寫網頁
-已知Bug 在list頁手機板問題 nav的引導以及手機板問題 所有文章-&amp;gt;最新文章  </description>
+ 將文章的照片等比例縮放 設置活動頁面 手機版網頁顯示問題 研究Tailwind語法 看Mooc的普通化學 為ReadingNotAlone寫網頁 等待Frank的稿 已知Bug 在list頁手機板問題 Nav的引導以及手機板問題 所有文章-&amp;gt;最新文章  </description>
     </item>
     
     <item>
