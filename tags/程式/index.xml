@@ -6,14 +6,23 @@
     <description>Recent content in 程式 on Mekaku&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 May 2021 16:19:20 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/tags/%E7%A8%8B%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 May 2021 16:19:20 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/tags/%E7%A8%8B%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>教學: 如何使用Hugo在Github部屬網站?</title>
+      <title>教學: 如何使用Hugo在Github部署網站?</title>
       <link>https://TonyChen91.github.io/articles/hugow/</link>
-      <pubDate>Fri, 21 May 2021 16:19:20 +0800</pubDate>
+      <pubDate>Sat, 29 May 2021 16:19:20 +0800</pubDate>
       
       <guid>https://TonyChen91.github.io/articles/hugow/</guid>
-      <description></description>
+      <description>什麼是GitHub和GitHub Page
+ 
+什麼是Hugo
+ 
+步驟一安裝Hugo
+ 
+步驟二了解Hugo架構
+ 
+步驟三上傳至GitHub
+ </description>
     </item>
     
   </channel>
