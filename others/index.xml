@@ -6,7 +6,37 @@
     <description>Recent content in Others on Mekaku&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 May 2021 20:28:59 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/others/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 May 2021 12:10:05 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/others/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>台灣疫情逐步失控紀錄</title>
+      <link>https://TonyChen91.github.io/others/twcovid/</link>
+      <pubDate>Sat, 29 May 2021 12:10:05 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/others/twcovid/</guid>
+      <description>2/00- 蘇貞昌: 已經向國外採購到2000萬劑疫苗，最快可以在今年第一季起陸續供應
+3/03- 第一批AZ疫苗抵台11.7萬劑 (連結點此)
+4/11- 范雲提出華航3+11政策
+4/15- 指揮部正式採用3+11政策 (連結點此)
+4/27- 1本土案例 (連結點此)
+陳玉珍爭執一個月，民進黨團總召柯建銘確定會在本周成立疫苗採購調閱小組(連結點此) 4/28- 3本土案例
+4/29- 2本土案例
+4/30- 3本土案例 陳時中: 感染源可能是外籍(航空)機師
+5/01- 1本土案例 侯友宜批評指揮中心嚴重疏忽陳時中強烈鄭重否認 5/02- 4本土案例
+5/03- 2本土案例
+疫苗施打統計資料分類施打的百分比檔案被撤掉 (連結點此) 5/06- 1本土案例
+5/08- 1本土案例
+5/10- 3本土案例
+華航機師要全面隔離14天，隔天大盤直接跌600點 指揮部: 再開會決定細節 5/11- 7本土案例
+5/12- 16本土案例
+侯友宜呼籲準備最壞打算（封城） 陳時中：不知道（侯）標準是啥
+蘇貞昌：民眾鬆懈了，該收心了 5/13- 13本土案例
+5/14- 29本土案例 陳時中：還不用三級警戒
+5/15- 180本土案例 行政院宣佈雙北三級警戒
+看好了世界台灣只示範一次(連結點此)
+國中會考延期會衍生行政成本，不延期。
+5/16- 206本土案例 侯友宜質疑四級警戒定義模糊</description>
+    </item>
+    
     <item>
       <title>Codes</title>
       <link>https://TonyChen91.github.io/others/codes/</link>
@@ -55,7 +85,7 @@ Bug fixed(網頁邊界留白、網頁標籤) Fix mobile device HeadTitle.Nav tex
 5/25- Tailwind優化首頁hover視覺
 Footer add -Version text
 Add Viewers counter on webhistory page.
-Version 1.2 Release.
+Version 1.2 Release. 5/26- 被化奧還有MC-動力機械Mod耽誤的Tony. 5/29- Version 1.3 Release.
 未完成清單
  將文章的照片等比例縮放 設置活動頁面 手機版網頁顯示問題 研究Tailwind語法 看Mooc的普通化學 為ReadingNotAlone寫網頁 等待Frank的稿 已知Bug 在list頁手機板問題 Nav的引導以及手機板問題 所有文章-&amp;gt;最新文章  </description>
     </item>
