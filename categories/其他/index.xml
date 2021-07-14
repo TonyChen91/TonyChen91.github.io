@@ -83,5 +83,48 @@
 陳玉珍爭執一個月，民進黨團總召柯建銘確定會在本周成立疫苗採購調閱小組(連結點此) 4/28- 3本土案例</description>
     </item>
     
+    <item>
+      <title>Codes</title>
+      <link>https://TonyChen91.github.io/others/codes/</link>
+      <pubDate>Fri, 01 Jan 2021 20:28:59 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/others/codes/</guid>
+      <description>使用 Markdown1可以效率的书写文档, 直接转换成 HTML, 你可以使用简书或者支持Markdown的编辑器进行书写。
+This link has no title attribute.
+我是藍色 我是標楷體 我是宋體 粗體
+斜體
+刪除縣
+*正常米字號
+尚須研究Hugo/CSS/markdown這邊有分段符號(兩個空白)
+尚須研究Hugo/CSS/markdown這邊有分段符號(空一行)
+尚須研究Hugo/CSS/markdown這邊沒有 尚須研究Hugo/CSS/markdown這邊沒有 尚須研究Hugo/CSS/markdown這邊沒有
+© 這是符號
+分隔線
+  引言失敗不知道為什麼。
+  代辦事項 已完成  s = &amp;#34;Python syntax highlighting&amp;#34; print s  尚須研究Hugo/CSS/markdown這邊沒有
+尚須研究Hugo/CSS/markdown這邊沒有
+  Markdown是一种纯文本标记语言&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title>網頁日誌</title>
+      <link>https://TonyChen91.github.io/others/webhistory/</link>
+      <pubDate>Fri, 01 Jan 2021 15:12:58 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/others/webhistory/</guid>
+      <description>5/20- 嘗試將空白網頁放置在Github上 5/21- /hugo commands.
+Release Prototpye 5/22- 太晚起床 Finish text of Articles.About Us 研究Markdown.CSS.Bootstrap 5/23- Put site on github.io add Articles&#39; taxonomies.
+update layout of list/single pages
+/git commands
+Version 1.0 Release. 5/24- 玩山中小屋桌遊耗太多時間.
+Bug fixed(website margin. html title) Fix mobile device HeadTitle.Nav text bugs. Version 1.1 Release.
+5/25- Tailwind優化首頁hover視覺
+Footer add version text
+Add Viewers counter on webhistory page.
+Version 1.2 Release.
+5/26- 被化奧還有MC-動力機械Mod耽誤的Tony. 5/29- Fixed Articles&#39; Pictures Center.</description>
+    </item>
+    
   </channel>
 </rss>
