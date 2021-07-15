@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <body><meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="https://TonyChen91.github.io//css/index.css" />
+<link rel="stylesheet" href="https://TonyChen91.github.io//css/navbar.css" />
+<link rel="stylesheet" href="https://TonyChen91.github.io//css/navbar.css" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+<script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+<script type="text/javascript">
+    window.addEventListener('scroll', ()=>{
+        const nav = document.querySelector('nav')
+        nav.classList.toggle('onscroll', window.scrollY > 0)
+    })
+</script>
+<nav class="pl-4 md:pl-24">
+  <a href="https://TonyChen91.github.io/" class="logo" style=" font-size: 5.25vmin">Mekaku&#39;s Site</a>
+  <ul class="hidden md:flex">
+    
+  </ul>
+</nav>
+<section class="banner"></section>
+
+        <div>
+  <div
+    id="mainBG"
+    style="background-image: url('https://i.picsum.photos/id/450/1920/1080.jpg?hmac=xDeMorMomjhKEbocGtnP89w5iKpSX0h4gMpFaltwJWs');"
+  >
+    <div
+      class="wave wave1"
+      style="background-image: url('https://TonyChen91.github.io//img/wave.png');"
+    ></div>
+    <div
+      class="wave wave2"
+      style="background-image: url('https://TonyChen91.github.io//img/wave.png');"
+    ></div>
+    <div
+      class="wave wave3"
+      style="background-image: url('https://TonyChen91.github.io//img/wave.png');"
+    ></div>
+    <div
+      class="wave wave4"
+      style="background-image: url('https://TonyChen91.github.io//img/wave.png');"
+    ></div>
+    
+    <div class="centerAll">
+      <div class="title text-6xl font-bold text-center " style=" font-size: 10vmin">
+        夏時紀錄
+      </div>
+      <div class="text text-xl text-center" style=" font-size: 3.5vmin">Tony x Frank 說書小站</div>
+    </div>
+  </div>
+</div>
+
+        <div id="content">
+<html>
+<head>
+     <meta charset="UTF-8">
+     ;
+     <title>夏時紀錄 -教學: 如何使用Hugo在Github部署網站?</title>
+</head>
+    <body>
+        <div style="width: 80%; max-width: 750px; margin: 4rem auto;">
+            <div class="text-3xl title-deco tracking-wide">
+  教學: 如何使用Hugo在Github部署網站?
+</div>
+
+            <br>
+            <div style="color:grey; font-size:16px;">日期: Friday, Jun 4, 2021</div>
+            <div style="color:grey; font-size:16px;"> 作者: Tony</div>
+            <hr><br>
+            <div><p><strong>
+
+
+
+
+<p style=" font-size: 28px "><span style=" color:palevioletred ">什麼是GitHub和GitHub Page</span>
+</p>
+</strong></p>
+<hr>
+<p><br>
+在介紹Github和Github Pages之前，先介紹一下網頁的種類以及網址。<br>
+<br>
+網頁有分動態和靜態:<br>
+<br>
+<strong>- 動態網頁:</strong> 及時與讀者互動，像是YT、FB這種網頁屬於此種。<br>
+有會員功能、購物車、討論區&hellip;等。通常使用Perl、PHP、ASP、JSP、ColdFusion來寫程式  <br>
+<br>
+<strong>- 靜態網頁:</strong> 不方便管理、易搜尋、較簡單設計和上手。通常是用HTML、CSS、JavaScript來編寫。<br>
+<br>
+要架設網站，除了網頁設計，還有網址的問題。<br>
+網址是連結網站的一個窗口，同一個網站的不同頁面，也都是不同網址所構成。<br>
+<br>
+那問題來了，網址該如何取得?<br>
+通常愈簡單的網址愈容易讓使用者記住，也都愈容易。<br>
+不幸的是，自訂網址是要收錢的，而且不是永久。 <br>
+但你也很幸運，本文將教你如何<strong>免費</strong>設立網頁和網址。 <br>
+<br>
+<br>
+回歸正題，什麼是Github和Github Pages??<br>
+<strong>- GitHub: 存放程式碼/公開代原碼的平台，任何人都可以訪問。<br>
+- Github-Pages: 利用你在GitHub放的資料來架設網站。</strong><br>
+<br>
+<br>
+簡單來說，你把網頁上傳到GitHub，並命名特定的名稱，<br>
+接著GitHub-Pages會自動把這個特定名稱的整個儲存庫(repo)給放上特定的網址。<br>
+任何訪問該網址的人，會去&hellip;      <br>
+首先先去看看<a href="https://pages.github.com/">Github Pages</a>的介紹  <br>
+<br>
+<strong>
+
+
+
+
+<p style=" font-size: 28px "><span style=" color:palevioletred ">什麼是Hugo</span>
+</p>
+</strong></p>
+<hr>
+<p><br>
+<br>
+<strong>
+
+
+
+
+<p style=" font-size: 28px "><span style=" color:palevioletred ">步驟一:安裝Hugo註冊Github</span>
+</p>
+</strong></p>
+<hr>
+<p><br>
+<br>
+<strong>
+
+
+
+
+<p style=" font-size: 28px "><span style=" color:palevioletred ">步驟二:了解Hugo架構</span>
+</p>
+</strong></p>
+<hr>
+<p><br>
+看一下你的網站的草稿:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">hugo server
+<span style="color:#75715e">&lt;!--在自己的電腦執行網站的草稿--&gt;</span>
+</code></pre></div><p><br>
+接著你就可以在 localhost:1313 這個網址上看到大致上的模板。<br>
+<br>
+最後將這些文章.程式.圖片檔等打包進public的資料夾</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cmd" data-lang="cmd">hugo
+</code></pre></div><p><br>
+<strong>
+
+
+
+
+<p style=" font-size: 28px "><span style=" color:palevioletred ">步驟三:上傳至GitHub</span>
+</p>
+</strong></p>
+<hr>
+<p>打開你的命令提示字元(cmd)，或者你用其他軟體打開也可。
+記得先鎖定位置到/public這個資料夾後在進行以下步驟:
+<br>
+<br>
+Step1:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git add .
+<span style="color:#75715e">&lt;!--代表把所有檔案加入暫存區--&gt;</span>
+</code></pre></div><p><br>
+Step2:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git commit -m &#34;Version 1.0&#34;
+<span style="color:#75715e">&lt;!--確認進入待上傳區--&gt;</span>
+<span style="color:#75715e">&lt;!---m &#34;XXX&#34; 的意思是給這次上傳到GitHub的檔案一條訊息，隨便寫也可--&gt;</span>
+</code></pre></div><p><br>
+Step3:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">git push -u origin master
+<span style="color:#75715e">&lt;!--代表把所有檔案加入暫存區--&gt;</span>
+</code></pre></div></div>
+        </div>
+
+             
+
+        <div style="width: 80%; max-width: 750px; margin: 4rem auto;">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+
+(function() {
+    
+    
+    
+    
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'TonyChen91';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+        </div>
+    </body>
+</html>
+
+        </div><footer class="text-center mt-8 py-2 bg-gray-900 text-white">
+  <div>MEKAKU&#39;S SITE generated by Hugo &amp; Github &copy; 2021   Version 1.3.4</div>
+</footer>
+</body>
+</html>

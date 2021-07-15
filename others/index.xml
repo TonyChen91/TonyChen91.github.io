@@ -6,52 +6,7 @@
     <description>Recent content in Others on Mekaku&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jun 2021 16:14:05 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/others/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>分享一下最近聽到很好聽的歌</title>
-      <link>https://TonyChen91.github.io/others/c/</link>
-      <pubDate>Fri, 04 Jun 2021 16:14:05 +0800</pubDate>
-      
-      <guid>https://TonyChen91.github.io/others/c/</guid>
-      <description>歌詞背後的故事
- 
-“心上人在梅邊柳邊 偏不在身邊”
-湯顯祖的《牡丹亭》
- 近睹分明似儼然，遠觀自在若飛仙。他年得傍蟾宮客，不在梅邊在柳邊。
-“小白蛇澆透臨安 許仙卻沒帶傘”
-馮夢龍 -《白蛇傳》
--許仙借傘
-“少女壓壞鞦韆 書生十年落選”
-一般唐代明代的才子佳人基本色調設定 少女等不到自己的如意郎君來娶自己，主要原因是因為十年來秀才都落榜
-代表作有元稹的《會真記》也就是一般我們現代人叫的《西廂記》
-“拈杯酒眯著眼 說專心看人間”
-曹操《短歌行》 對酒當歌，人生幾何？譬如朝露，去日苦多。
-“長安建安潘安都想沾一沾”
-曹雪芹《紅樓夢》 - 長安指的是權力；
-- 建安是指“建安七子”，代表才學與才情；
-- 潘安是指俊朗的美貌。
-說的是人生在世希望既可以掌權，又希望自己是個有才情和才學之人，還希望自己有個俊朗的美貌和美艷的妻子（才學與美貌，也就是傳統上常說的的“才子佳人”《西廂記》、《唐伯虎點秋香》都是這類題材）。所以“都想沾一沾”~
-中國文學裡，一出生就集權貴、才學、美貌與美女於一身的人，典型人物應該當屬賈寶玉了吧？但賈寶玉最後也懸崖撒手，這裡大意是說人貪婪，什麼都想要一點，最好十全十美，但神仙才會“掐指算，此去少圓滿”，須知“此事古難全”（蘇軾-《水調歌頭》），所以對應後面那句 “千萬莫求全”。
-或者，大家也可以參照《紅樓夢》的《好了歌》。
-“借泥爐燒碗飯，在檐上種炊煙”
-白居易 - 《問劉十九》
-綠蟻新醅酒，紅泥小火爐。晚來天欲雪，能飲一杯無？
-- 化外風光四野浮。雞鳴犬吠故園秋。古藤又綠青檐上。淡淡炊煙淡淡愁。
-- 溪橋盡處住山家，也種桑麻也種瓜。春有野花秋有桔，炊煙四季畫雲霞。
-“好提膽闖人海 再叩風月關”
-歐陽修《玉樓春》
-- 人生自是有情癡，此恨不關風與月。
-“兜兜轉轉八十一難 我們走著看”
-吳承恩 - 《西遊記》
-“竹馬去尋竹馬 青梅意興闌珊”
-李白《長干行而首》
-- 郎騎竹馬來，繞床弄青梅。
-- 不過這裡有點Gay gay的，說男朋友（竹馬）另結新歡（去尋），新歡居然是個男的（竹馬），搞到她（青梅）整個人都顯掉（意興闌珊）……（長恨人間不“直”啊！）
-“伯牙琴絃摔斷”
-馮夢龍《俞伯牙摔琴谢知音》
-- 鍾子期死，伯牙破琴絕弦，終身不復鼓琴，以為世無足復為鼓琴者。（也就是一般我們熟知的《高山流水》的故事原型）</description>
-    </item>
-    
+    <lastBuildDate>Sat, 29 May 2021 12:10:05 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/others/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>台灣疫情逐步失控紀錄</title>
       <link>https://TonyChen91.github.io/others/twcovid/</link>
@@ -113,17 +68,13 @@ This link has no title attribute.
       <pubDate>Fri, 01 Jan 2021 15:12:58 +0800</pubDate>
       
       <guid>https://TonyChen91.github.io/others/webhistory/</guid>
-      <description>5/20- 嘗試將空白網頁放置在Github上 5/21- /hugo commands.
-Release Prototpye 5/22- 太晚起床 Finish text of Articles.About Us 研究Markdown.CSS.Bootstrap 5/23- Put site on github.io add Articles&#39; taxonomies.
+      <description>5/20- Try to put blank pages on Github. 5/21- /hugo commands.
+Release Prototpye 5/22- Wake up late. Finish text of Articles.About Us Studying Markdown.CSS.Bootstrap 5/23- Put site on github.io add Articles&#39; taxonomies.
 update layout of list/single pages
 /git commands
-Version 1.0 Release. 5/24- 玩山中小屋桌遊耗太多時間.
+Version 1.0 Release. 5/24- Playing Betrayal at House on the Hill.
 Bug fixed(website margin. html title) Fix mobile device HeadTitle.Nav text bugs. Version 1.1 Release.
-5/25- Tailwind優化首頁hover視覺
-Footer add version text
-Add Viewers counter on webhistory page.
-Version 1.2 Release.
-5/26- 被化奧還有MC-動力機械Mod耽誤的Tony. 5/29- Fixed Articles&#39; Pictures Center.</description>
+5/25- Tailwind optimize index page hovering vision.</description>
     </item>
     
   </channel>
