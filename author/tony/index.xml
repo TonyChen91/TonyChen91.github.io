@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mekaku&#39;s Site</title>
-    <link>https://TonyChen91.github.io/</link>
-    <description>Recent content on Mekaku&#39;s Site</description>
+    <title>Tony on Mekaku&#39;s Site</title>
+    <link>https://TonyChen91.github.io/author/tony/</link>
+    <description>Recent content in Tony on Mekaku&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jul 2021 12:17:55 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jul 2021 12:17:55 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/author/tony/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>線上跑團TRPG: 介紹&#43;歷史紀錄&#43;筆記</title>
       <link>https://TonyChen91.github.io/projects/trpg/</link>
@@ -51,82 +51,6 @@ hugo
 步驟三:上傳至GitHub
  打開你的命令提示字元(cmd)，或者你用其他軟體打開也可。 記得先鎖定位置到/public這個資料夾後在進行以下步驟: Step1:
 git add .</description>
-    </item>
-    
-    <item>
-      <title>黃詩扶-人間不值得: 背後的典故</title>
-      <link>https://TonyChen91.github.io/articles/worthliving/</link>
-      <pubDate>Fri, 04 Jun 2021 16:14:05 +0800</pubDate>
-      
-      <guid>https://TonyChen91.github.io/articles/worthliving/</guid>
-      <description>歌詞背後的故事
- 
-“心上人在梅邊柳邊 偏不在身邊”
-湯顯祖的《牡丹亭》
- 近睹分明似儼然，遠觀自在若飛仙。他年得傍蟾宮客，不在梅邊在柳邊。
-“小白蛇澆透臨安 許仙卻沒帶傘”
-馮夢龍 -《白蛇傳》
--許仙借傘
-“少女壓壞鞦韆 書生十年落選”
-一般唐代明代的才子佳人基本色調設定 少女等不到自己的如意郎君來娶自己，主要原因是因為十年來秀才都落榜
-代表作有元稹的《會真記》也就是一般我們現代人叫的《西廂記》
-“拈杯酒眯著眼 說專心看人間”
-曹操《短歌行》 對酒當歌，人生幾何？譬如朝露，去日苦多。
-“長安建安潘安都想沾一沾”
-曹雪芹《紅樓夢》 - 長安指的是權力；
-- 建安是指“建安七子”，代表才學與才情；
-- 潘安是指俊朗的美貌。
-說的是人生在世希望既可以掌權，又希望自己是個有才情和才學之人，還希望自己有個俊朗的美貌和美艷的妻子（才學與美貌，也就是傳統上常說的的“才子佳人”《西廂記》、《唐伯虎點秋香》都是這類題材）。所以“都想沾一沾”~
-中國文學裡，一出生就集權貴、才學、美貌與美女於一身的人，典型人物應該當屬賈寶玉了吧？但賈寶玉最後也懸崖撒手，這裡大意是說人貪婪，什麼都想要一點，最好十全十美，但神仙才會“掐指算，此去少圓滿”，須知“此事古難全”（蘇軾-《水調歌頭》），所以對應後面那句 “千萬莫求全”。
-或者，大家也可以參照《紅樓夢》的《好了歌》。
-“借泥爐燒碗飯，在檐上種炊煙”
-白居易 - 《問劉十九》
-綠蟻新醅酒，紅泥小火爐。晚來天欲雪，能飲一杯無？
-- 化外風光四野浮。雞鳴犬吠故園秋。古藤又綠青檐上。淡淡炊煙淡淡愁。
-- 溪橋盡處住山家，也種桑麻也種瓜。春有野花秋有桔，炊煙四季畫雲霞。
-“好提膽闖人海 再叩風月關”
-歐陽修《玉樓春》
-- 人生自是有情癡，此恨不關風與月。
-“兜兜轉轉八十一難 我們走著看”
-吳承恩 - 《西遊記》
-“竹馬去尋竹馬 青梅意興闌珊”
-李白《長干行而首》
-- 郎騎竹馬來，繞床弄青梅。
-- 不過這裡有點Gay gay的，說男朋友（竹馬）另結新歡（去尋），新歡居然是個男的（竹馬），搞到她（青梅）整個人都顯掉（意興闌珊）……（長恨人間不“直”啊！）
-“伯牙琴絃摔斷”
-馮夢龍《俞伯牙摔琴谢知音》
-- 鍾子期死，伯牙破琴絕弦，終身不復鼓琴，以為世無足復為鼓琴者。（也就是一般我們熟知的《高山流水》的故事原型）</description>
-    </item>
-    
-    <item>
-      <title>台灣疫情逐步失控紀錄</title>
-      <link>https://TonyChen91.github.io/others/twcovid/</link>
-      <pubDate>Sat, 29 May 2021 12:10:05 +0800</pubDate>
-      
-      <guid>https://TonyChen91.github.io/others/twcovid/</guid>
-      <description>0. 台灣過去一年功勞都陳時中? 明明就是一流人民自己的自律。
-1. 國台辦說有需求就願意給疫苗，但是陸委會說不要假好心， 你怎麼對得起現在的醫護人員? 2. 再來，我們領先別人一年，但是還沒有疫苗是怎樣?
-疫苗我們沒錢買嗎? 不是說4100億的預算? 錢哩?
-3. 有人說指揮部已經很辛苦了，不要怪他們，人總有疏失?
-那我以後當醫師救了100個人然後把手術刀忘在病人體內和你說我已經很辛苦了
-各行各業都很辛苦只有指揮中心在辛苦，是嗎?
-4. 現在已經這樣還不把指揮中心換人? 是做何居心?
-醫界多少人清楚現在到底該怎麼做? 你會不會指揮?
-5. 還有那個校正回歸，塞車?
-你指揮中心過去一年是不知道篩檢要多久嗎? 你不會附註有塞車情況讓人民警覺? TMD根本蓋牌阿?
-6. 抗疫，不分藍綠，結果還在用林瑋豐網軍
-還在說中國阻饒，BNT原廠就說沒這回事了阿 丟臉丟到國外去 7. 國外打疫苗都不用錢，台灣打疫苗為什麼要付費?
-好，既然付費，那你憑甚麼限定我要打什麼牌子的疫苗?
-去美國打疫苗到底為甚麼違法? 8. 我如果自己願意.自己付費 想打中國疫苗 為什麼不可以? 你有甚麼權利Say NO ?
-台灣不是號稱民主嗎? 民主進步啊?
-9. 蔡政府要我們等一支不確定的台產疫苗到8月 用百姓的生命來炒股，這就是台灣人選出來的政府。 看看那些在醫院的醫療人員和病患
-直到現在還一個道歉都沒有，整天還在中共和人民素質問題 這不是甩鍋轉移焦點是甚麼??? 10. 我看到高端跌停了(5/31)，笑死
-2/00- 蘇貞昌: 已經向國外採購到2000萬劑疫苗，最快可以在今年第一季起陸續供應
-3/03- 第一批AZ疫苗抵台11.7萬劑 (連結點此)
-4/11- 范雲提出華航3+11政策
-4/15- 指揮部正式採用3+11政策 (連結點此)
-4/27- 1本土案例 (連結點此)
-陳玉珍爭執一個月，民進黨團總召柯建銘確定會在本周成立疫苗採購調閱小組(連結點此) 4/28- 3本土案例</description>
     </item>
     
     <item>
@@ -261,30 +185,6 @@ git add .</description>
 黑:那你爸媽呢?
 我:他們希望我成為牙醫。(我爸媽完全沒意見)
 黑:講一下你在中研院做了什麼?(他偷瞄時鐘)</description>
-    </item>
-    
-    <item>
-      <title>Codes</title>
-      <link>https://TonyChen91.github.io/others/codes/</link>
-      <pubDate>Fri, 01 Jan 2021 20:28:59 +0800</pubDate>
-      
-      <guid>https://TonyChen91.github.io/others/codes/</guid>
-      <description>使用 Markdown1可以效率的书写文档, 直接转换成 HTML, 你可以使用简书或者支持Markdown的编辑器进行书写。
-This link has no title attribute.
-我是藍色 我是標楷體 我是宋體 粗體
-斜體
-刪除縣
-*正常米字號
-尚須研究Hugo/CSS/markdown這邊有分段符號(兩個空白)
-尚須研究Hugo/CSS/markdown這邊有分段符號(空一行)
-尚須研究Hugo/CSS/markdown這邊沒有 尚須研究Hugo/CSS/markdown這邊沒有 尚須研究Hugo/CSS/markdown這邊沒有
-© 這是符號
-分隔線
- This is an H1 This is an H2 This is an H6  引言失敗不知道為什麼。
-  代辦事項 已完成  s = &amp;#34;Python syntax highlighting&amp;#34; print s  尚須研究Hugo/CSS/markdown這邊沒有
-尚須研究Hugo/CSS/markdown這邊沒有
-  Markdown是一种纯文本标记语言&amp;#160;&amp;#x21a9;&amp;#xfe0e;
-   </description>
     </item>
     
     <item>

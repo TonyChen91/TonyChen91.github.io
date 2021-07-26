@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://TonyChen91.github.io/articles/</loc>
-    <lastmod>2021-06-04T16:19:20+08:00</lastmod>
+    <loc>https://TonyChen91.github.io/author/</loc>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/categories/</loc>
-    <lastmod>2021-06-04T16:19:20+08:00</lastmod>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/author/frank/</loc>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/</loc>
-    <lastmod>2021-06-04T16:19:20+08:00</lastmod>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/projects/</loc>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/tags/</loc>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/author/tony/</loc>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/tags/trpg/</loc>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/categories/%E6%B4%BB%E5%8B%95/</loc>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/projects/trpg/</loc>
+    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/articles/</loc>
     <lastmod>2021-06-04T16:19:20+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/categories/%E6%89%8B%E6%9C%AD/</loc>
@@ -30,6 +51,9 @@
     <lastmod>2021-06-04T16:14:05+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/others/</loc>
+    <lastmod>2021-05-29T12:10:05+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/author/tonychen/</loc>
     <lastmod>2021-05-29T12:10:05+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
@@ -81,6 +105,9 @@
     <lastmod>2021-04-29T20:43:53+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/others/codes/</loc>
+    <lastmod>2021-01-01T20:28:59+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/author/tony-x-frank/</loc>
     <lastmod>2021-01-01T20:28:59+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/others/webhistory/</loc>
