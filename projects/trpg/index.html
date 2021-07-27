@@ -9,16 +9,15 @@
                     margin: 0;
                     padding: 0;
                     box-sizing: border-box;
-
                 }
                 body{
                     display: flex;
                     justify-content: center;
-                    align-items: center;
                     min-height: 100vh;
-                    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://tarotapp.s3.amazonaws.com/post/-999-0/pool/cCfO8UWGiSETajR_1599042566.jpg);
+                    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/img/COCBG.jpg);
                     background-size: cover;
                     background-position: center;
+                    z-index: 3;
                 }
                 Lbutton{
                     position: relative;
@@ -27,9 +26,10 @@
                     text-decoration: none;
                     text-transform: uppercase;
                     width: 200px;
+                    height: 60px;
                     overflow: hidden;
                     border-radius: 40px;
-                    top: 35%;
+                    top: 80%;
                 }
                 Lbutton span{
                     position: relative;
@@ -47,7 +47,7 @@
                     left: 0;
                     width: 200px;
                     height: 200px;
-                    background-color: #4973ff;
+                    background-color: #008B8B;
                     box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
                     transition: 0.5s all;
                 }
@@ -88,6 +88,10 @@
     </head>
 
     <body>
+
+          <div style="top:5vh; transform: scale(0.7,0.7); z-index: 2; position: absolute">
+              <img src="/img/COC.png" alt="H1.Title">
+          </div>
           <Lbutton style="transform: translate(-100px, 0%)">
           <a style="text-decoration:none" href="https://rolladie.net/" target="_blank">
                 <span>Dice <i class="fas fa-dice"></i></span>
