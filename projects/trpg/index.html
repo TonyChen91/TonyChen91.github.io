@@ -1,109 +1,105 @@
-<!DOCTYPE html>
-<html>
-    <body><meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-<link rel="stylesheet" href="https://TonyChen91.github.io//css/index.css" />
-<link rel="stylesheet" href="https://TonyChen91.github.io//css/navbar.css" />
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
-
-<script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
-
-<script type="text/javascript">
-    window.addEventListener('scroll', ()=>{
-        const nav = document.querySelector('nav')
-        nav.classList.toggle('onscroll', window.scrollY > 0)
-    })
-</script>
-<nav class="pl-4 md:pl-24">
-  <a href="https://TonyChen91.github.io/" class="logo" style=" font-size: 5.25vmin">Mekaku&#39;s Site</a>
-  <ul class="hidden md:flex">
-    
-  </ul>
-</nav>
-<section class="banner"></section>
-
-        <div>
-  <div
-    id="mainBG"
-    style="background-image: url('https://i.picsum.photos/id/450/1920/1080.jpg?hmac=xDeMorMomjhKEbocGtnP89w5iKpSX0h4gMpFaltwJWs');"
-  >
-    <div
-      class="wave wave1"
-      style="background-image: url('https://TonyChen91.github.io//img/wave.png');"
-    ></div>
-    <div
-      class="wave wave2"
-      style="background-image: url('https://TonyChen91.github.io//img/wave.png');"
-    ></div>
-    <div
-      class="wave wave3"
-      style="background-image: url('https://TonyChen91.github.io//img/wave.png');"
-    ></div>
-    <div
-      class="wave wave4"
-      style="background-image: url('https://TonyChen91.github.io//img/wave.png');"
-    ></div>
-    
-    <div class="centerAll">
-      <div class="title text-6xl font-bold text-center " style=" font-size: 10vmin">
-        夏時紀錄
-      </div>
-      <div class="text text-xl text-center" style=" font-size: 3.5vmin">Tony x Frank 說書小站</div>
-    </div>
-  </div>
-</div>
-
-        <div id="content">
 <html>
-<head>
-     <meta charset="UTF-8">
-     ;
-     <title>夏時紀錄 -線上跑團TRPG: 介紹&#43;歷史紀錄&#43;筆記</title>
-</head>
+<link rel="stylesheet" href="https://TonyChen91.github.io//css/navbar.css" />
+<script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <head>
+          <title>夏時紀錄-TRPG</title>
+          <style type="text/css">
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+
+                }
+                body{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-height: 100vh;
+                    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://tarotapp.s3.amazonaws.com/post/-999-0/pool/cCfO8UWGiSETajR_1599042566.jpg);
+                    background-size: cover;
+                    background-position: center;
+                }
+                Lbutton{
+                    position: relative;
+                    padding: 20px 50px ;
+                    display: block;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    width: 200px;
+                    overflow: hidden;
+                    border-radius: 40px;
+                    top: 35%;
+                }
+                Lbutton span{
+                    position: relative;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: lato;
+                    letter-spacing: 2px;
+                    z-index: 1;
+
+                }
+                Lbutton .liquid{
+                    position: absolute;
+                    top: -80px;
+                    left: 0;
+                    width: 200px;
+                    height: 200px;
+                    background-color: #4973ff;
+                    box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+                    transition: 0.5s all;
+                }
+                Lbutton .liquid::after,
+                Lbutton .liquid::before{
+                    content: "";
+                    width: 200%;
+                    height: 200%;
+                    top: 0;
+                    position: absolute;
+                    left: 50%;
+                    transform: translate(-50%, -75%);
+                    background-color: #000;
+                }
+                Lbutton .liquid::before{
+                    border-radius: 45%;
+                    background-color: rgba(20,20,20,1);
+                    animation: animate 5s linear infinite;
+                }
+                Lbutton .liquid::after{
+                    border-radius: 40%;
+                    background-color: rgba(20,20,20,0.5);
+                    animation: animate 10s linear infinite;
+                }
+                Lbutton:hover .liquid{
+                    top: -120px;
+                }
+                @keyframes animate{
+                    0%{
+                        transform: translate(-50%, -75%) rotate(0deg);
+                    }
+                    100%{
+                        transform: translate(-50%, -75%) rotate(360deg);
+                    }
+                }
+
+          </style>
+    </head>
+
     <body>
-        <div style="width: 80%; max-width: 750px; margin: 4rem auto;">
-            <div class="text-3xl title-deco tracking-wide">
-  線上跑團TRPG: 介紹&#43;歷史紀錄&#43;筆記
-</div>
-
-            <br>
-            <div style="color:grey; font-size:16px;">日期: Monday, Jul 26, 2021</div>
-            <div style="color:grey; font-size:16px;"> 作者: [Tony Frank]</div>
-            <hr><br>
-            <div><p>123456</p>
-</div>
-        </div>
-
-             
-
-        <div style="width: 80%; max-width: 750px; margin: 4rem auto;">
-            <div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    
-    
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'TonyChen91';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-        </div>
+          <Lbutton style="transform: translate(-100px, 0%)">
+          <a style="text-decoration:none" href="https://rolladie.net/" target="_blank">
+                <span>Dice <i class="fas fa-dice"></i></span>
+                <div class="liquid"></div>
+          </a>
+          </Lbutton>
+          <Lbutton style="transform: translate(100px, 0%)">
+          <a style="text-decoration:none" href="https://docs.google.com/spreadsheets/d/1UeEZnw__nPJSJZg9DTosFwTTZSIMEZ31CMlFkKiaFL4/edit?usp=sharing" target="_blank">
+                  <span>Role <i class="fas fa-user-circle"></i></span>
+                  <div class="liquid"></div>
+          </a>
+          </Lbutton>
     </body>
-</html>
 
-        </div><footer class="text-center mt-8 py-2 bg-gray-900 text-white">
-  <div>MEKAKU&#39;S SITE generated by Hugo &amp; Github &copy; 2021   Version 1.4.0</div>
-</footer>
-</body>
 </html>
