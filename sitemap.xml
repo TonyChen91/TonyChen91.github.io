@@ -2,25 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://TonyChen91.github.io/articles/</loc>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
+  </url><url>
     <loc>https://TonyChen91.github.io/author/</loc>
-    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/categories/</loc>
-    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/</loc>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/tags/</loc>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/author/tony/</loc>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/articles/18whisper/</loc>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/tags/%E5%BF%83%E5%A4%B1/</loc>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/tags/%E5%BF%83%E5%BE%97/</loc>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
+  </url><url>
+    <loc>https://TonyChen91.github.io/categories/%E6%89%8B%E6%9C%AD/</loc>
+    <lastmod>2021-08-01T17:38:07+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/author/frank/</loc>
     <lastmod>2021-07-26T12:17:55+08:00</lastmod>
   </url><url>
-    <loc>https://TonyChen91.github.io/</loc>
-    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
-  </url><url>
     <loc>https://TonyChen91.github.io/projects/</loc>
-    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
-  </url><url>
-    <loc>https://TonyChen91.github.io/tags/</loc>
-    <lastmod>2021-07-26T12:17:55+08:00</lastmod>
-  </url><url>
-    <loc>https://TonyChen91.github.io/author/tony/</loc>
     <lastmod>2021-07-26T12:17:55+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/tags/trpg/</loc>
@@ -44,20 +59,11 @@
     <loc>https://TonyChen91.github.io/others/ttt/</loc>
     <lastmod>2021-07-25T11:22:25+08:00</lastmod>
   </url><url>
-    <loc>https://TonyChen91.github.io/articles/</loc>
-    <lastmod>2021-06-04T16:19:20+08:00</lastmod>
-  </url><url>
-    <loc>https://TonyChen91.github.io/categories/%E6%89%8B%E6%9C%AD/</loc>
-    <lastmod>2021-06-04T16:19:20+08:00</lastmod>
-  </url><url>
     <loc>https://TonyChen91.github.io/articles/buildhugowebsite/</loc>
     <lastmod>2021-06-04T16:19:20+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/tags/%E7%A8%8B%E5%BC%8F/</loc>
     <lastmod>2021-06-04T16:19:20+08:00</lastmod>
-  </url><url>
-    <loc>https://TonyChen91.github.io/tags/%E5%BF%83%E5%BE%97/</loc>
-    <lastmod>2021-06-04T16:14:05+08:00</lastmod>
   </url><url>
     <loc>https://TonyChen91.github.io/articles/worthliving/</loc>
     <lastmod>2021-06-04T16:14:05+08:00</lastmod>
