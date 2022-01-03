@@ -1,0 +1,63 @@
+.page-wrapper a:hover{
+  color: #006669;
+}
+.post-slider {
+  /*
+  border: 1px solid red;
+  */
+}
+.post-slider .slider-title {
+  text-align: center;
+  margin:30px auto;
+  font-size: 1.875rem;
+  letter-spacing: 0.025em;
+}
+.post-slider .prev {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 2em;
+  color: #000000;
+  cursor: pointer;
+  z-index: 2;
+}
+.post-slider .next {
+  position: absolute;
+  top: 500%;
+  right: 30px;
+  font-size: 2em;
+  color: #000000;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.post-slider .post-wrapper {
+  width: 93%;
+  height: ;
+  margin: 0px auto;
+  overflow: hidden;
+  padding: 10px 0px 10px 0px;
+}
+
+.post-slider .post-wrapper .post {
+  background: white;
+  display: inline-block;
+  height: 400px;
+  margin: 0px 10px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.post-slider .post-wrapper .post .post-info {
+  height: 180px;
+  margin: 10px;
+  text-decoration: none;
+  padding: 0px 5px;
+  /*border: 1px solid red;*/
+}
+.post-slider .post-wrapper .post .slider-image {
+  width: 100%;
+  height: 12rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
