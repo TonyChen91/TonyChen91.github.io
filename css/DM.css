@@ -208,7 +208,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../img/DM-home.jpeg) no-repeat;
+    background: url(../img/DM-home5.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -292,7 +292,7 @@ section{
 
 .menu .box-container .box .price span{
     font-size: 1.5rem;
-    text-decoration: line-through;
+  /*  text-decoration: line-through; */
     font-weight: lighter;
 }
 
