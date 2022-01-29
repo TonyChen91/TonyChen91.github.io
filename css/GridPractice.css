@@ -1,0 +1,74 @@
+.grind-container {
+  max-width: 100rem;
+  margin-inline: auto;
+  padding-inline: 2rem;
+/*background-color: gray;*/
+}
+.product-grid {
+  display: grid;
+  margin: auto;
+  gap: 1rem; /*讓每個grid gap.25rem*/
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); /*自動產生欄列、最小寬度15rem, 最大1fr*/
+}
+.card {
+  /*border: solid hotpink 3px;*/
+  aspect-ratio: 1/1; /*整個卡片的長變為寬的1.5倍*/
+}
+@media (min-width: 40em) {
+    .card.featured { /*也可以用.card--featured或.card[data-featured="true"]*/
+      grid-row: span 2;
+      grid-column: span 2;
+      overflow: hidden;
+    }
+    .card.featured .card__img {/*不知為何這裡一定要空格*/
+      aspect-ratio: 1 / .831;
+    }
+    .card.featured .card__title {
+      font-size: 1.75rem;
+    }
+    .card .card__content {
+      margin-left: 1rem;
+      margin-bottom: .4rem;
+    }
+}
+
+.card__img{
+  width: 100%;/*寬設為100%的1fr*/
+  aspect-ratio: 1/.65; /*寬長等比例1:1*/
+  object-fit: cover; /*讓圖片置中且不產生形變*/
+  border-radius: 0.25rem;
+}
+.card__content {
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  align-self: end;
+  margin-bottom: 3rem; /*整個 card__content的邊緣, 上.5rem 左右.5rem, 下4rem*/
+  margin-left: .25rem;
+  margin-right: .25rem;
+  padding: .5rem; /*向內的margin*/
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+@supports (backdrop-filter: blur(2rem)) {
+  .card__content {
+      background-color: hsl(0 0% 100% / 0.1);
+      backdrop-filter: blur(2rem);
+  }
+}
+.card__title {
+  font-size: 1.25rem;
+  line-height: 1.1;/*行高*/
+  color: black;
+  font-weight: bold;
+}
+.card__description {
+  color: gray;
+}
+.stacked {
+  display: grid;
+}
+.stacked > * {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}

@@ -17,11 +17,12 @@ nav.onscroll {
 }
 
 nav .logo {
+  /*display: none;*/
   position: relative;
   font-weight: 700;
   color: #fff;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 5.25vmin;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -47,7 +48,10 @@ nav ul li a {
   font-weight: 500px;
   transition: 0.6s;
 }
-nav.onscroll .logo,
+
+nav.onscroll .logo{
+  /*display: block;*/
+}
 nav.onscroll ul li a {
   color: #fff;
 }
