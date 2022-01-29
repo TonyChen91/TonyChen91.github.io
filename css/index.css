@@ -77,8 +77,9 @@
 .title-deco::after {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 84px;
   height: 4px;
+  left: 0;
   background: #ee7785;
   bottom: 0;
 }
