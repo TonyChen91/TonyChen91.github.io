@@ -77,10 +77,10 @@
 .title-deco::after {
   position: absolute;
   content: "";
-  width: 84px;
+  width: 42px;
   height: 4px;
   left: 0;
-  background: #ee7785;
+  background-color: #ee7785;
   bottom: 0;
 }
 /*這邊分隔線這邊分#ee7785隔線這邊分隔線這邊分隔線這邊分隔線這邊分隔線*/
