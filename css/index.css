@@ -4,6 +4,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 #mainBG {
   position: relative;
   width: 100%;
@@ -84,3 +85,165 @@
   bottom: 0;
 }
 /*這邊分隔線這邊分#ee7785隔線這邊分隔線這邊分隔線這邊分隔線這邊分隔線*/
+#ProjectsSection {
+  position: relative;
+  width: 1015px;
+  height: 248px;
+
+  background: #FFFFFF;
+}
+#SectionTitle {
+  position: absolute;
+  width: 174px;
+  height: 56px;
+  left: 22px;
+  top: 9px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  color: #2B3A4B;
+}
+#SectionSeeAll {
+  position: absolute;
+  width: 109px;
+  height: 56px;
+  right: 21px;
+  top: 9px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  
+  color: #5265FF;
+}
+#ProjectsOverflow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 0px;
+
+  position: absolute;
+  width: 972px;
+  height: 171px;
+  left: 22px;
+  top: 55px;
+  overflow-x: scroll;/*或用scroll*/
+}
+#projects-content-cards{
+  position: static;
+  width: 372px;
+  height: 151px;
+  left: 0px;
+  top: 10px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  /*order: 0;有BUG*/
+  flex-grow: 0;
+  margin: 0px 20px;
+}
+#projects-content-card-btn {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 18px;
+
+  position: absolute;
+  width: 100px;
+  height: 39px;
+  left: 419px;
+  top: 90px;
+  /*z-index: 2;*/
+  background: linear-gradient(274.32deg, #5265FF 6.64%, #828FFF 91.62%);
+  mix-blend-mode: normal;
+  border-radius: 112px;
+}
+#projects-content-card-btn a {
+  /* 繼續閱讀 > */
+  position: static;
+  width: 64px;
+  height: 15px;
+  left: 18px;
+  top: 12px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+#projects-content-card-title {
+  position: absolute;
+  width: 269px;
+  height: 43px;
+  left: 27px;
+  top: 35px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  /*z-index: 2;*/
+  color: #FFFFFF;
+}
+#projects-content-card-img {
+  position: absolute;
+  width: 372px;
+  height: 151px;
+  left: 0px;
+  top: 10px;
+  border-radius: 18px;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+#projects-content-card-img-hover {
+  position: absolute;
+  width: 372px;
+  height: 151px;
+  left: 0px;
+  top: 10px;
+  z-index: 9;
+  background: linear-gradient(82.97deg, rgba(50, 50, 50, 0.5) 9.74%, rgba(50, 50, 50, 0.1) 98.39%);
+  border-radius: 18px;
+  mix-blend-mode: normal;
+}
+#projects-content-card-img-groups {
+  /* 圖片與遮罩 */
+  position: absolute;
+  width: 372px;
+  height: 151px;
+  left: 0px;
+  top: 10px;
+}
