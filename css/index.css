@@ -96,7 +96,7 @@
   position: absolute;
   /* width: 174px; */
   height: 56px;
-  left: 22px;
+  /* left: 22px; */
   top: 9px;
 
   font-family: 'Arial';
@@ -136,7 +136,7 @@
   position: absolute;
   width: 100%;
   height: 171px;
-  left: 22px;
+  /* left: 22px; */
   top: 55px;
   overflow-x: scroll;/*或用scroll*/
 }
@@ -248,4 +248,280 @@
   height: 151px;
   /* left: 0px;
   top: 10px; */
+}
+/*第二個分隔線(AllArticlesSection)*/
+#AllArticlesSection {
+  position: relative;
+  /* width: 801px; */
+  height: 434px;
+  background: #FFFFFF;
+}
+#SectionSeeAll2 {
+  position: absolute;
+  width: 96px;
+  height: 92px;
+  right: 21px;
+  top: 5px;
+  
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  
+  color: #5265FF;
+}
+#SectionTitle2 {
+  position: absolute;
+  /* width: 313px; */
+  height: 47px;
+  /* left: 42px; */
+  top: 22px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  color: #2B3A4B;
+}
+#AllCateOverflow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  /* left: 42px; */
+  top: 78px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+#CateBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 23px 64px;
+  position: static;
+  width: 85px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  background: #5265FF;
+  border-radius: 112px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+#CateBtn a {
+  position: static;
+  width: 36px;
+  height: 32px;
+  left: 24.5px;
+  top: 4.5px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+#CateBtn2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 23px 54px;
+
+  position: static;
+  width: 85px;
+  height: 41px;
+  /* left: 95px; */
+  top: 0px;
+  background: #FFFFFF;
+  border: 3px solid #5265FF;
+  border-radius: 112px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+#CateBtn2 a {
+  position: static;
+  width: 32px;
+  height: 18px;
+  left: 26.5px;
+  top: 11.5px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #5265FF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+#ContentCardOverflow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 100%;
+  height: 242.5px;
+  /* left: 42px; */
+  top: 151px;
+  overflow-x: scroll;
+}
+#ContentCard-container {
+  position: static;
+  width: 211px;
+  height: 242.5px;
+  left: 0px;
+  top: 0px;
+  /* Inside auto layout */
+  flex: none;
+  /* order: 0; */
+  flex-grow: 0;
+  margin: 0px 20px;
+}
+#ContentCard-stroke {
+  position: relative;
+  width: 211px;
+  height: 242.5px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#ContentCard-imgoverflow {
+  position: relative;
+  width: 211px;
+  height: 148.94px;
+  left: 0px;
+  top: -243px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+#ContentCard-img {
+  position: absolute;
+  width: 240px;
+  height: 163px;
+  /* left: calc(50% - 240px/2 - 0.5px);
+  top: calc(50% - 163px/2 + 0.78px); */
+  border-radius: 15px;
+}
+#ContentCard-title {
+  position: relative;
+  /* width: 134.49px; */
+  /* height: 330px; */
+  left: 11px;
+  top: -235px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #09101D;
+}
+#ContentCard-textoverflow {
+  position: relative;
+  width: 185px;
+  height: 48px;
+  left: 14px;
+  top: -230.25px;
+  overflow-y: hidden;
+  
+}
+#ContentCard-textoverflow p {
+  position: absolute;
+  width: 185px;
+  height: 103px;
+  left: -0.13px;
+  top: -0.26px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+
+  color: #474C56;
+
+  mix-blend-mode: normal;
+}
+#ContentCard-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 24px;
+
+  position: relative;
+  width: 42.88px;
+  height: 17.22px;
+  left: 150px;
+  top: -300.25px;
+
+  background: #FFFFFF;
+  border: 1.5px solid rgba(82, 101, 255, 0.62);
+  border-radius: 10px;
+}
+#ContentCard-tag a {
+  position: static;
+  /* width: 20px; */
+  height: 11px;
+  left: 11.44px;
+  top: 3.11px;
+
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #5265FF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
 }
