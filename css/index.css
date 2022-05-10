@@ -397,7 +397,7 @@
 
   position: absolute;
   width: 100%;
-  height: 242.5px;
+  height: 245.5px;
   /* left: 42px; */
   top: 151px;
   overflow-x: scroll;
@@ -501,8 +501,8 @@
 }
 #ContentCard-tag a {
   position: static;
-  /* width: 20px; */
-  height: 11px;
+  width: auto;
+  /* height: 11px; */
   left: 11.44px;
   top: 3.11px;
 
@@ -524,4 +524,12 @@
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+  /*把Chrome瀏覽器的scrollbar隱藏*/
+}
+body {
+  -ms-overflow-style: none;
+  /*把IE瀏覽器的scrollbar隱藏*/
 }
