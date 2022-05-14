@@ -135,7 +135,7 @@
 
   position: absolute;
   width: 100%;
-  height: 171px;
+  /* height: 171px; */
   /* left: 22px; */
   top: 55px;
   overflow-x: scroll;/*或用scroll*/
@@ -299,7 +299,7 @@
 
   position: absolute;
   width: 100%;
-  height: 55px;
+  /* height: 55px; */
   /* left: 42px; */
   top: 78px;
   overflow-x: scroll;
@@ -397,7 +397,7 @@
 
   position: absolute;
   width: 100%;
-  height: 245.5px;
+  /* height: 245.5px; */
   /* left: 42px; */
   top: 151px;
   overflow-x: scroll;
@@ -526,10 +526,16 @@
   margin: 0px 10px;
 }
 ::-webkit-scrollbar {
-  display: none;
-  /*把Chrome瀏覽器的scrollbar隱藏*/
+  /* display: none; */
+  /*把Edge. Chrome瀏覽器的scrollbar隱藏*/
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
 }
 body {
   -ms-overflow-style: none;
   /*把IE瀏覽器的scrollbar隱藏*/
 }
+/* Optional: show position indicator in red */
+/* ::-webkit-scrollbar-thumb {
+  background: #a5adeb;
+} */
