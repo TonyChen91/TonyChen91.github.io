@@ -50,12 +50,12 @@
   border-radius: 0.25rem;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
-/*@supports (backdrop-filter: blur(2rem)) {
+/* @supports (backdrop-filter: blur(2rem)) {
   .card__content {
       background-color: hsl(0 0% 100% / 0.1);
       backdrop-filter: blur(2rem);
   }
-}*/
+} */
 .card__title {
   font-size: 1.25rem;
   line-height: 1.1;/*行高*/

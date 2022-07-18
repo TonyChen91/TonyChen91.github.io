@@ -397,7 +397,7 @@
 
   position: absolute;
   width: 100%;
-  /* height: 245.5px; */
+  height: 274.5px;
   /* left: 42px; */
   top: 151px;
   overflow-x: scroll;
@@ -405,7 +405,7 @@
 #ContentCard-container {
   position: static;
   width: 211px;
-  height: 242.5px;
+  height: 100%;
   left: 0px;
   top: 0px;
   /* Inside auto layout */
@@ -443,10 +443,10 @@
 }
 #ContentCard-title {
   position: relative;
-  /* width: 134.49px; */
-  /* height: 330px; */
+  width: 195px;
+  height: 20px;
   left: 11px;
-  top: -235px;
+  top: -254px;
   font-family: 'Arial';
   font-style: normal;
   font-weight: 700;
@@ -459,9 +459,9 @@
 #ContentCard-textoverflow {
   position: relative;
   width: 185px;
-  height: 48px;
+  height: 56px;
   left: 14px;
-  top: -230.25px;
+  top: -252.25px;
   overflow-y: hidden;
   
 }
@@ -493,10 +493,12 @@
   width: 42.88px;
   height: 17.22px;
   left: 150px;
-  top: -300.25px;
+  top: -383.25px;
 
-  background: #FFFFFF;
-  border: 1.5px solid rgba(82, 101, 255, 0.62);
+  background: hsl(0 0% 100% / 0.1);
+  backdrop-filter: blur(1rem);
+  /* border: 1.5px solid rgba(82, 101, 255, 0.62); */
+  border: 1.5px solid rgb(255, 255, 255);
   border-radius: 10px;
 }
 #ContentCard-tag a {
@@ -514,22 +516,20 @@
   display: flex;
   align-items: center;
   text-align: center;
-
-  color: #5265FF;
-
-
+  /* color: #5265FF; */
+  color: #FFFFFF;
   /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
 }
 ::-webkit-scrollbar {
-  /* display: none; */
-  /*把Edge. Chrome瀏覽器的scrollbar隱藏*/
-  width: 0;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  display: none;
+  /* 把Edge. Chrome瀏覽器的scrollbar隱藏 */
+  /* Optional: just make scrollbar invisible */
+  /* width: 0; */
+  /* background-color: transparent; */
 }
 body {
   -ms-overflow-style: none;
@@ -537,5 +537,5 @@ body {
 }
 /* Optional: show position indicator in red */
 /* ::-webkit-scrollbar-thumb {
-  background: #a5adeb;
+  background-color: #c91a1a;
 } */
