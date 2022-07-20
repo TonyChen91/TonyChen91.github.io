@@ -1,0 +1,472 @@
+#ProjectsSection {
+    position: relative;
+    /* width: 1015px; */
+    height: 248px;
+    max-width: 100rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+    background: #FFFFFF;
+  }
+  #SectionTitle {
+    position: absolute;
+    /* width: 174px; */
+    height: 56px;
+    /* left: 22px; */
+    top: 9px;
+  
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+  
+    color: #2B3A4B;
+  }
+  #SectionSeeAll {
+    position: absolute;
+    /* width: 109px; */
+    height: 56px;
+    right: 21px;
+    top: 9px;
+    
+    font-family: 'Serif', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #5265FF;
+  }
+  #ProjectsOverflow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+  
+    position: absolute;
+    width: 100%;
+    /* height: 171px; */
+    /* left: 22px; */
+    top: 55px;
+    overflow-x: scroll;/*或用scroll*/
+  }
+  #projects-content-cards{
+    position: static;
+    width: 372px;
+    height: 151px;
+    left: 0px;
+    top: 10px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    /*order: 0;有BUG*/
+    flex-grow: 0;
+    margin: 0px 20px;
+  }
+  #projects-content-card-btn {
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 18px;
+    margin-left: 30px;
+  
+    position: absolute;
+    width: 100px;
+    height: 39px;
+    /* left: 419px; */
+    top: 90px;
+    z-index: 10;
+    background: linear-gradient(274.32deg, #5265FF 6.64%, #828FFF 91.62%);
+    mix-blend-mode: normal;
+    border-radius: 112px;
+  }
+  #projects-content-card-btn a {
+    /* 繼續閱讀 > */
+    position: static;
+    width: 64px;
+    height: 15px;
+    left: 18px;
+    top: 12px;
+  
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+  
+    display: flex;
+    align-items: center;
+  
+    color: #FFFFFF;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  #projects-content-card-title {
+    position: absolute;
+    width: 269px;
+    height: 43px;
+    /* left: 27px; */
+    top: 35px;
+    margin-left: 30px;
+  
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    color: #FFFFFF;
+  }
+  #projects-content-card-img {
+    position: absolute;
+    width: 372px;
+    height: 151px;
+    /* left: 0px;
+    top: 10px; */
+    border-radius: 18px;
+    mix-blend-mode: normal;
+    z-index: 1;
+    /* aspect-ratio: 1/1; */
+  }
+  #projects-content-card-img-hover {
+    position: absolute;
+    width: 372px;
+    height: 151px;
+    /* left: 0px;
+    top: 10px; */
+    z-index: 9;
+    background: linear-gradient(82.97deg, rgba(50, 50, 50, 0.5) 9.74%, rgba(50, 50, 50, 0.1) 98.39%);
+    border-radius: 18px;
+    mix-blend-mode: normal;
+  }
+  #projects-content-card-img-groups {
+    /* 圖片與遮罩 */
+    position: absolute;
+    width: 372px;
+    height: 151px;
+    /* left: 0px;
+    top: 10px; */
+  }
+  /*第二個分隔線(AllArticlesSection)*/
+  #AllArticlesSection {
+    position: relative;
+    /* width: 801px; */
+    height: 434px;
+    max-width: 100rem;
+    margin-inline: auto;
+    padding-inline: 2rem;
+    background: #FFFFFF;
+    /* background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') */
+  }
+  #SectionSeeAll2 {
+    position: absolute;
+    width: 96px;
+    height: 92px;
+    right: 21px;
+    top: 5px;
+    
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #5265FF;
+  }
+  #SectionTitle2 {
+    position: absolute;
+    /* width: 313px; */
+    height: 47px;
+    /* left: 42px; */
+    top: 22px;
+  
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+  
+    color: #2B3A4B;
+  }
+  #AllCateOverflow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+  
+    position: absolute;
+    width: 100%;
+    /* height: 55px; */
+    /* left: 42px; */
+    top: 78px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  #CateBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 64px;
+    position: static;
+    width: 85px;
+    height: 41px;
+    left: 0px;
+    top: 0px;
+    background: #5265FF;
+    border-radius: 112px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 6px;
+  }
+  #CateBtn a {
+    position: static;
+    width: 36px;
+    height: 32px;
+    left: 24.5px;
+    top: 4.5px;
+  
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  #CateBtn2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 54px;
+  
+    position: static;
+    width: 85px;
+    height: 41px;
+    /* left: 95px; */
+    top: 0px;
+    background: #FFFFFF;
+    border: 3px solid #5265FF;
+    border-radius: 112px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 6px;
+  }
+  #CateBtn2 a {
+    position: static;
+    width: 32px;
+    height: 18px;
+    left: 26.5px;
+    top: 11.5px;
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5265FF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  #ContentCardOverflow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+  
+    position: absolute;
+    width: 100%;
+    height: 274.5px;
+    /* left: 42px; */
+    top: 151px;
+    overflow-x: scroll;
+  }
+  #ContentCard-container {
+    position: static;
+    /* width: 211px; */
+    height: 243px;
+    left: 0px;
+    top: 0px;
+    /* Inside auto layout */
+    flex: none;
+    /* order: 0; */
+    flex-grow: 0;
+    margin: 0px 10px;
+  
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  /* #ContentCard-stroke {
+    position: relative;
+    width: 211px;
+    height: 242.5px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+  } */
+  #ContentCard-imgoverflow {
+    position: relative;
+    width: 211px;
+    height: 148.94px;
+    left: 0px;
+    top: 0px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
+  #ContentCard-img {
+    /* position: absolute; */
+    width: 240px;
+    height: 163px;
+    /* left: calc(50% - 240px/2 - 0.5px);
+    top: calc(50% - 163px/2 + 0.78px); */
+    /* border-radius: 15px; */
+  }
+  #ContentCard-title {
+    position: relative;
+    width: 195px;
+    height: 20px;
+    left: 11px;
+    top: -11px;
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #09101D;
+  }
+  #ContentCard-textoverflow {
+    position: relative;
+    width: 185px;
+    height: 56px;
+    left: 14px;
+    top: -10.25px;
+    overflow-y: hidden;
+    
+  }
+  #ContentCard-textoverflow p {
+    position: absolute;
+    width: 185px;
+    height: 103px;
+    left: -0.13px;
+    top: -0.26px;
+  
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+  
+    color: #757575;
+  
+    mix-blend-mode: normal;
+  }
+  #ContentCard-tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 24px;
+  
+    position: relative;
+    width: 42.88px;
+    height: 17.22px;
+    left: 150px;
+    top: -140.25px;
+  
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+    /* border: 1.5px solid rgba(82, 101, 255, 0.62); */
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  #ContentCard-tag a {
+    position: static;
+    width: auto;
+    /* height: 11px; */
+    left: 11.44px;
+    top: 3.11px;
+  
+    font-family: 'Noto Serif TC', 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* color: #5265FF; */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+    /* 把Edge. Chrome瀏覽器的scrollbar隱藏 */
+    /* Optional: just make scrollbar invisible */
+    /* width: 0; */
+    /* background-color: transparent; */
+  }
+  body {
+    -ms-overflow-style: none;
+    font-family: 'Noto Serif TC', 'Arial';
+    /*把IE瀏覽器的scrollbar隱藏*/
+  }
+  /* Optional: show position indicator in red */
+  /* ::-webkit-scrollbar-thumb {
+    background-color: #c91a1a;
+  } */
