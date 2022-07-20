@@ -89,7 +89,9 @@
   position: relative;
   /* width: 1015px; */
   height: 248px;
-
+  max-width: 100rem;
+  margin-inline: auto;
+  padding-inline: 2rem;
   background: #FFFFFF;
 }
 #SectionTitle {
@@ -254,7 +256,11 @@
   position: relative;
   /* width: 801px; */
   height: 434px;
+  max-width: 100rem;
+  margin-inline: auto;
+  padding-inline: 2rem;
   background: #FFFFFF;
+  
 }
 #SectionSeeAll2 {
   position: absolute;
@@ -313,7 +319,7 @@
   padding: 23px 64px;
   position: static;
   width: 85px;
-  height: 52px;
+  height: 41px;
   left: 0px;
   top: 0px;
   background: #5265FF;
@@ -322,7 +328,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 10px;
+  margin: 0px 6px;
 }
 #CateBtn a {
   position: static;
@@ -336,9 +342,11 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 18px;
+  
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
 
   color: #FFFFFF;
   /* Inside auto layout */
@@ -352,7 +360,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 23px 54px;
+  padding: 20px 54px;
 
   position: static;
   width: 85px;
@@ -366,7 +374,7 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 0px 10px;
+  margin: 0px 6px;
 }
 #CateBtn2 a {
   position: static;
@@ -404,15 +412,19 @@
 }
 #ContentCard-container {
   position: static;
-  width: 211px;
-  height: 100%;
+  /* width: 211px; */
+  height: 243px;
   left: 0px;
   top: 0px;
   /* Inside auto layout */
   flex: none;
   /* order: 0; */
   flex-grow: 0;
-  margin: 0px 20px;
+  margin: 0px 10px;
+
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 #ContentCard-stroke {
   position: relative;
@@ -429,24 +441,29 @@
   width: 211px;
   height: 148.94px;
   left: 0px;
-  top: -243px;
+  top: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
 }
 #ContentCard-img {
-  position: absolute;
+  /* position: absolute; */
   width: 240px;
   height: 163px;
   /* left: calc(50% - 240px/2 - 0.5px);
   top: calc(50% - 163px/2 + 0.78px); */
-  border-radius: 15px;
+  /* border-radius: 15px; */
 }
 #ContentCard-title {
   position: relative;
   width: 195px;
   height: 20px;
   left: 11px;
-  top: -254px;
+  top: -11px;
   font-family: 'Arial';
   font-style: normal;
   font-weight: 700;
@@ -461,7 +478,7 @@
   width: 185px;
   height: 56px;
   left: 14px;
-  top: -252.25px;
+  top: -10.25px;
   overflow-y: hidden;
   
 }
@@ -474,11 +491,11 @@
 
   font-family: 'Arial';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 550;
   font-size: 10px;
   line-height: 14px;
 
-  color: #474C56;
+  color: #757575;
 
   mix-blend-mode: normal;
 }
@@ -493,7 +510,7 @@
   width: 42.88px;
   height: 17.22px;
   left: 150px;
-  top: -383.25px;
+  top: -140.25px;
 
   background: hsl(0 0% 100% / 0.1);
   backdrop-filter: blur(1rem);
