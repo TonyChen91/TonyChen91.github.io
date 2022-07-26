@@ -28,8 +28,9 @@
     position: absolute;
     /* width: 109px; */
     height: 60px;
-    right: 21px;
+    right: 0px;
     top: 9px;
+    margin-right: 20px;
     
     font-family: 'Serif', 'Arial';
     font-style: normal;
@@ -171,7 +172,7 @@
     height: 434px;
     max-width: 100rem;
     margin-inline: auto;
-    padding-inline: 1rem;
+    /* padding-inline: 1rem; */
     background: #FFFFFF;
     /* background-image: url('https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') */
   }
@@ -199,6 +200,7 @@
     height: 47px;
     /* left: 42px; */
     top: 22px;
+    margin-left: 20px;
   
     font-family: 'Noto Serif TC', 'Arial';
     font-style: normal;
@@ -214,10 +216,10 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding: 6px;
   
     position: absolute;
-    width: 95%;
+    width: 100vw;
     /* height: 55px; */
     /* left: 42px; */
     top: 78px;
@@ -290,17 +292,18 @@
     margin: 0px 6px;
   }
   #CateBtn2 a {
-    position: static;
-    width: 32px;
+    position: relative;
+    /* width: 32px; */
     height: 18px;
-    left: 26.5px;
-    top: 11.5px;
+    /* left: 26.5px;
+    top: 11.5px; */
     font-family: 'Noto Serif TC', 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     color: #5265FF;
@@ -314,12 +317,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 6px;
   
     position: absolute;
-    width: 95%;
+    width: 100vw;
     height: 274.5px;
-    left: 15px;
+    /* left: 15px; */
     top: 151px;
     overflow-x: scroll;
   }
