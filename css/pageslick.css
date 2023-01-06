@@ -2,9 +2,7 @@
   color: #006669;
 }
 .post-slider {
-  /*
-  border: 1px solid red;
-  */
+  /* border: 1px solid red; */
 }
 .post-slider .slider-title {
   text-align: center;
@@ -33,7 +31,7 @@
 
 .post-slider .post-wrapper {
   width: 93%;
-  height: ;
+  /* height: ; */
   margin: 0px auto;
   overflow: hidden;
   padding: 10px 0px 10px 0px;

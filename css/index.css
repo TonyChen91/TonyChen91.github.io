@@ -8,6 +8,7 @@
 }
 
 #mainBG {
+  font-family: 'Noto Serif TC', 'Arial';
   position: relative;
   width: 100%;
   height: 80vh;
@@ -75,6 +76,7 @@
 
 .title-deco {
   position: relative;
+  font-family: 'Noto Serif TC', 'Arial';
 }
 
 .title-deco::after {
@@ -86,6 +88,7 @@
   background-color: #ee7785;
   bottom: 0;
 }
+
 /*這邊分隔線這邊分#ee7785隔線這邊分隔線這邊分隔線這邊分隔線這邊分隔線*/
 #SectionPoem, #SectionPoem::after, #SectionPoem::before {
   box-sizing: border-box;
@@ -147,4 +150,23 @@
 #Poem-P {
   font-size: 1rem;
   line-height: 2;
+}
+/*這邊分隔線這邊分#ee7785隔線這邊分隔線這邊分隔線這邊分隔線這邊分隔線*/
+/*這邊分隔線這邊分#ee7785隔線這邊分隔線這邊分隔線這邊分隔線這邊分隔線*/
+/*這邊分隔線這邊分#ee7785隔線這邊分隔線這邊分隔線這邊分隔線這邊分隔線*/
+
+
+@media (max-width: 768px) {
+  #allcategories {
+    display: none;
+  }
+  #projects {
+    display: none;
+  }
+  .grind-container {
+    display: none;
+  }
+  #about {
+    display: none;
+  }
 }
