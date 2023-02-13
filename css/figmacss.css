@@ -405,6 +405,8 @@
       /* position: absolute; */
       width: 240px;
       height: 163px;
+      aspect-ratio: 1/0.65;
+      object-fit: cover;
       /* left: calc(50% - 240px/2 - 0.5px);
       top: calc(50% - 163px/2 + 0.78px); */
       /* border-radius: 15px; */
