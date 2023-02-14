@@ -203,7 +203,7 @@
       padding-right: 20px;
       padding-left: 20px;
       font-weight: 400;
-      font-size: 10px;
+      font-size: 12px;
       line-height: 18px;
       display: flex;
       align-items: center;
@@ -266,7 +266,7 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 23px 64px;
+      padding: 16px 40px;
       position: static;
       width: 85px;
       height: 41px;
@@ -290,7 +290,7 @@
       font-family: 'Noto Serif TC', 'Arial';
       font-style: normal;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 13px;
       line-height: 18px;
     
       display: flex;
@@ -310,10 +310,10 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 20px 54px;
+      padding: 16px 22px;
     
       position: static;
-      width: 85px;
+      width: auto;
       height: 41px;
       /* left: 95px; */
       top: 0px;
@@ -335,7 +335,7 @@
       font-family: 'Noto Serif TC', 'Arial';
       font-style: normal;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 13px;
       line-height: 18px;
       display: flex;
       flex-direction: row;
@@ -346,7 +346,7 @@
       flex: none;
       order: 0;
       flex-grow: 0;
-      margin: 0px 10px;
+      /* margin: 0px 10px; */
     }
     #ContentCardOverflow {
       display: flex;
@@ -407,6 +407,7 @@
       height: 163px;
       aspect-ratio: 1/0.65;
       object-fit: cover;
+
       /* left: calc(50% - 240px/2 - 0.5px);
       top: calc(50% - 163px/2 + 0.78px); */
       /* border-radius: 15px; */
