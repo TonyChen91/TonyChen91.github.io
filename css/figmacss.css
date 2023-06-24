@@ -458,12 +458,12 @@
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 7px 24px;
-    
+      /* padding: 7px 24px; */
+      margin-right: 10px;
       position: relative;
-      width: 42.88px;
+      width: auto;
       height: 17.22px;
-      left: 150px;
+      /* left: 150px; */
       top: -140.25px;
     
       background: hsl(0 0% 100% / 0.1);

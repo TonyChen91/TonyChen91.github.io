@@ -120,10 +120,13 @@
   background: inherit;
   background-clip: padding-box;
   padding: 20px 30px;
-  width: 420px;
-  height: 450px;
+  /* width: 420px; */
+  /* height: 450px; */
   overflow: hidden;
-  margin-top: 5vh;
+  /* margin-top: 5vh; */
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .Poem-Card::before {

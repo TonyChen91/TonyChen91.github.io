@@ -95,7 +95,7 @@
 </div>
 
   </div>
-  <div class="md:flex justify-around">
+  <div style="display:flex; justify-content: space-evenly;">
       
       <figure class="bg-white rounded-xl p-8">
         
@@ -127,6 +127,8 @@
           </figcaption>
         </div>
       </figure>
+
+
       
       <figure class="bg-white rounded-xl p-8">
         <img class="w-32 h-32 rounded-full mx-auto" src="/img/FrankP2.jpg" alt="" width="384" height="512">
@@ -396,7 +398,7 @@
         <div class="product-grid">
               
               <div class="hover:bg-gray-300 hover:shadow-2xl transition duration-200 card stacked featured">
-                <a href="https://TonyChen91.github.io/articles/230205-dawu/"><img src="/img/Dawu01.jpg" alt="" class="transform hover:scale-110 transition duration-200 card__img"></a>
+                <a href="https://TonyChen91.github.io/articles/230205-dawu/"><img src="/img/Dawu01-small.jpg" alt="" class="transform hover:scale-110 transition duration-200 card__img"></a>
                 <div class="card__content">
                   <h2 class="hover:text-gray-600 transition duration-500 card__title"><a href="https://TonyChen91.github.io/articles/230205-dawu/">3.2分，滿分是3分</a></h2>
                   <p class="card__description">千佑正爬上一棵老樹眺望遠方
@@ -468,10 +470,10 @@
             
             
 
-            <div class="bg-white rounded-xl p-4">
+            <div class="bg-white rounded-xl p-4" style="display: flex;align-items: center;flex-direction: row;justify-content: flex-start;">
                 
                 <img style="float: left; margin-right: 10px;" class="w-32 h-32 rounded-full mx-auto" src="/img/TonyP3.jpg" alt="" width="384" height="512">
-                <p style="height: 170px;" class="text-base font-semibold">
+                <p class="text-base font-semibold">
                     “
                     我是Tony，是一名小小的醫學生。某天哪根筋不對，突然開始研究程式，不知不覺完成了這個網站，於是和Frank相邀開始了寫文章的怪生活
                     ”
@@ -479,14 +481,14 @@
               
             </div>
             
-            <div class="bg-white rounded-xl p-4">
+            <div class="bg-white rounded-xl p-4" style="display: flex;align-items: center;flex-direction: row;justify-content: flex-start;">
                 
-                <img style="float: right; margin-left: 10px;" class="w-32 h-32 rounded-full mx-auto" src="/img/FrankP2.jpg" alt="" width="384" height="512">
-                <p style="height: 100px;" class="text-base font-semibold">
+                <p class="text-base font-semibold">
                     “
                     我是Frank，喜歡研究西方哲學和國學，然後選擇工科學校就讀。矛盾嗎？反正活著的矛盾遠比這種小事大，在乎又有何用?
                     ”
                 </p>
+                <img style="float: right; margin-left: 10px;" class="w-32 h-32 rounded-full mx-auto" src="/img/FrankP2.jpg" alt="" width="384" height="512">
                   
             </div>
     </section> 
@@ -712,9 +714,17 @@
                 
                     
                     <div id="ContentCard-imgoverflow">
-                        <a href="https://TonyChen91.github.io/articles/230205-dawu/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/Dawu01.jpg" loading="lazy"></a>
+                        <a href="https://TonyChen91.github.io/articles/230205-dawu/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/Dawu01-small.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E6%97%A5%E8%A8%98">日記</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%BF%83%E5%BE%97">心得</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E9%86%AB%E7%99%82">醫療</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/230205-dawu/">3.2分，滿分是3分</a></div>
                     <div id="ContentCard-textoverflow"><p>千佑正爬上一棵老樹眺望遠方
  我是個糟糕的美宣 到了營期才發現自己把孩子們的名牌打錯了字，像温寫成溫，佑誤植成了祐。
@@ -729,7 +739,13 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/articles/230120-jellyandlife/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/jellyfish.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%BF%83%E5%BE%97">心得</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E6%97%A5%E8%A8%98">日記</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/230120-jellyandlife/">水母與生命</a></div>
                     <div id="ContentCard-textoverflow"><p> 驚蟄一過，春雨總是會淅淅瀝瀝、淋淋灑灑的下在白沙灣。沙子會被浸溼，潮水會如同間歇的樂章般，起伏跌宕於柔軟的沙床。 這時你只要逡巡在潮間帶，便可以看到成群的水母發著他們動人的淺藍螢光，微微螢光隨潮水上下搖晃，好似海中的水晶燈籠。 在天階夜色中，那螢光彷彿比星星還亮、比星塵還動人。你會很想躍入海中與水母群共遊，但牠們會予你毒刺。有時他們也會不 屑你，自顧自地隨著海流不知飄向何處。
 港口的漁夫們有一首 …</p></div>
@@ -742,7 +758,13 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/articles/220720-friendship/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://images.unsplash.com/photo-1626016941451-728b7b11bc11?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=774&amp;q=80" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E7%A7%81%E4%BA%BA%E6%97%A5%E8%A8%98">私人日記</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E4%B8%8A%E9%8E%96">上鎖</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/220720-friendship/">友誼的鳥籠</a></div>
                     <div id="ContentCard-textoverflow"><p>Frank前些日子參加高捷舞蹈比賽拿了冠軍，那天起，他和我說他的下一步，是拿到台灣區世界賽的資格。
 他在小祈底下訓練打藝舞蹈好些日子了，日日夜夜的訓練，現在已是小祈底下最強的學徒。小祈是曾經的打藝舞世界冠軍，他很賞識Frank那種把舞蹈的藝術性凌駕於技術性之上的精神。
@@ -757,7 +779,11 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/projects/disaster/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/DM-home3B.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%B4%BB%E5%8B%95">活動</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E9%86%AB%E7%99%82">醫療</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/projects/disaster/">城中城災情整合平台</a></div>
                     <div id="ContentCard-textoverflow"><p>受到G0V的啟發, 我們決定做一個資訊整合平台, 提供給災民以及想幫助的人一個簡單明瞭的共同編輯網頁。本網站將使用API串聯以提供第一手資訊</p></div>
                
@@ -769,7 +795,13 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/articles/211219-choccolate/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/211219-i1.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%BF%83%E5%BE%97">心得</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E6%97%A5%E8%A8%98">日記</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/211219-choccolate/">巧克力味的物語</a></div>
                     <div id="ContentCard-textoverflow"><p>在學餐找不到位子，不得已，只好跑去和別人共用一桌。我揀了個在柱子旁的位子，端詳著坐我對面白髮蒼蒼的長者正讀著聖經。我主動搭話，原來他是醫學界的老學長。談著談著，他分享了40年前的高醫內科是多麼的輝煌和優秀。洋洋地說著他受蔣經國總統號招，到澎湖行醫的傳奇。他說他現在老了，身體不好，回來台灣。和高醫院長是故交，所以偶爾會來高醫校園走走。最後，他送了我幾顆巧克力，說是他很喜歡的口味。或許，人老了以後，回 …</p></div>
                
@@ -781,7 +813,11 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/articles/ireadzhuangzi/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/IRead1.png" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%BF%83%E5%BE%97">心得</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/ireadzhuangzi/">我、莊子與星空</a></div>
                     <div id="ContentCard-textoverflow"><p>有時候，在靜謐安詳的夜裡，我坐在說桌前，會闔起正精采的小說，抬頭看向窗外無限璀璨星塵在黑幔展開。我很喜歡這種愜意，不必正襟，只須享受。沒有人群的喧嘩，只有眾星的流光以及世界的呢喃。 思緒在其中流淌，好似泡沫好似夢。
 隨著眾星湧動，思緒好像可以穿越至宇宙邊緣，在那端徘徊，在彼端迴盪，瀰漫整個維度。我覺得，人就像宇宙，一切的思考和想像，如同恆星，匯集收縮而後釋放如銀河系般，整個人類的脈動聚集縮合，先是 …</p></div>
@@ -794,7 +830,11 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/articles/summercontinuation/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/SummerC.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%BF%83%E5%BE%97">心得</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/summercontinuation/">夏天的續行</a></div>
                     <div id="ContentCard-textoverflow"><p>夏，是什麼樣的季節?
 於我而言，是個很神奇的季節吧。
@@ -821,7 +861,11 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/projects/trpg/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/TRPG.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%B4%BB%E5%8B%95">活動</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/trpg">TRPG</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/projects/trpg/">線上跑團TRPG: 介紹&#43;歷史紀錄&#43;筆記</a></div>
                     <div id="ContentCard-textoverflow"><p>各位好! 我是筆者Tony。TRPG在亞洲遠沒有在他國那麼盛行，很多人可能連TRPG的名字都沒有聽過，這一篇文章將分享我喜歡TRPG的原因，也會簡單的告訴你 :
 1.什麼是TRPG
@@ -836,7 +880,11 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/others/ttt/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=869&amp;q=80" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E6%B8%AC%E8%A9%A6">測試</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/others/ttt/">測試用文章</a></div>
                     <div id="ContentCard-textoverflow"><p>我拿來測試的文章 主要測試layout</p></div>
                
@@ -848,7 +896,11 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/articles/buildhugowebsite/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/hugo.png" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E7%A8%8B%E5%BC%8F">程式</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/buildhugowebsite/">教學: 如何使用Hugo在Github架網站?</a></div>
                     <div id="ContentCard-textoverflow"><p>什麼是GitHub和GitHub Page
  
@@ -865,7 +917,11 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/articles/worthliving/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/piviv.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%BF%83%E5%BE%97">心得</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/worthliving/">黃詩扶-人間不值得: 背後的典故</a></div>
                     <div id="ContentCard-textoverflow"><p>歌詞背後的故事
  
@@ -887,7 +943,13 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/others/twcovid/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://www.eetasia.com/wp-content/uploads/sites/2/2020/04/745b19a1-e84a-423a-8396-31041d28b39e.png" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E7%96%AB%E6%83%85">疫情</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E7%B4%80%E9%8C%84">紀錄</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/others/twcovid/">台灣疫情逐步失控紀錄</a></div>
                     <div id="ContentCard-textoverflow"><p>0. 台灣過去一年功勞都陳時中? 明明就是一流人民自己的自律。
 1. 國台辦說有需求就願意給疫苗，但是陸委會說不要假好心， 你怎麼對得起現在的醫護人員? 2. 再來，我們領先別人一年，但是還沒有疫苗是怎樣?
@@ -904,7 +966,11 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/articles/democr/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://img.jakpost.net/c/2018/03/16/2018_03_16_42345_1521164086._large.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%85%AC%E6%B0%91">公民</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/democr/">什麼是民主化浪潮? 淺談民主化與其逆流</a></div>
                     <div id="ContentCard-textoverflow"><p>* 以下是文章精華版的檔案:
 * 檔案連結
@@ -930,7 +996,13 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/study/academics/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/ICOB.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%8D%87%E5%AD%B8">升學</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E4%B8%AD%E7%A0%94%E9%99%A2">中研院</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E9%9D%A2%E8%A9%A6">面試</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/study/academics/">中研院人才培育計畫 介紹&#43;事前準備&#43;面試心得</a></div>
                     <div id="ContentCard-textoverflow"><p></p></div>
                
@@ -942,7 +1014,13 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/articles/penthouse/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://1.bp.blogspot.com/-mqaHvkIL8OA/X5EmkK-Nv2I/AAAAAAAAALA/zzKMaRFICc8ZOoqgOuYrAorC3_2LW-JPQCLcBGAsYHQ/s640/%25E9%259F%2593%25E5%258A%2587-Penthouse%25E4%25B8%258A%25E6%25B5%2581%25E6%2588%25B0%25E7%2588%25AD-%25E7%25B7%259A%25E4%25B8%258A%25E7%259C%258B%2B%25282%2529.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E6%89%8B%E6%9C%AD">手札</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%BF%83%E5%BE%97">心得</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E8%BF%BD%E5%8A%87">追劇</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/articles/penthouse/">電視劇 頂層公寓/上流社會: 我們看到了什麼?</a></div>
                     <div id="ContentCard-textoverflow"><p>還沒有內文所以我先隨便放影片
 然後我很喜歡秀蓮
@@ -956,7 +1034,13 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/study/doc/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/BuDoc.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%8D%87%E5%AD%B8">升學</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%AD%B8%E6%B8%AC">學測</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E9%9D%A2%E8%A9%A6">面試</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/study/doc/">110學測面試 慈濟醫學系 事前準備&#43;面試心得</a></div>
                     <div id="ContentCard-textoverflow"><p>一、整體說明
 慈濟醫5關MMI，每一關6分鐘，先統一讀題30分鐘再跑關，教授通常不追問。
@@ -972,7 +1056,13 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/study/dentist/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/ChinaDentist.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%8D%87%E5%AD%B8">升學</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E5%AD%B8%E6%B8%AC">學測</a> </div>
+                        
+                        <div id="ContentCard-tag"><a href="/tags/%E9%9D%A2%E8%A9%A6">面試</a> </div>
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/study/dentist/">110學測面試 中國醫牙醫系 事前準備&#43;面試心得</a></div>
                     <div id="ContentCard-textoverflow"><p>一、整體說明
 中國牙是三對一個面15mins，沒有術科考試。
@@ -987,7 +1077,9 @@
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/others/codes/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=869&amp;q=80" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/others/codes/">Codes</a></div>
                     <div id="ContentCard-textoverflow"><p>使用 Markdown1可以效率的书写文档, 直接转换成 HTML, 你可以使用简书或者支持Markdown的编辑器进行书写。
 This link has no title attribute.
@@ -1006,7 +1098,9 @@ This link has no title attribute.
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/others/webhistory/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=869&amp;q=80" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/others/webhistory/">網頁日誌</a></div>
                     <div id="ContentCard-textoverflow"><p>2020
  5/20- Try to put blank pages on Github. 5/21- /hugo commands.
@@ -1033,7 +1127,9 @@ Release Prototpye 5/22- Wake up late. Finish text of Articles.About Us Studying 
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/study/academics/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/ICOB.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%8D%87%E5%AD%B8">升學</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        <div id="ContentCard-tag"><a href="/categories/%E5%8D%87%E5%AD%B8">升學</a> </div>
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/study/academics/">中研院人才培育計畫 介紹&#43;事前準備&#43;面試心得</a></div>
                     <div id="ContentCard-textoverflow"><p></p></div>
                 </div>
@@ -1043,7 +1139,9 @@ Release Prototpye 5/22- Wake up late. Finish text of Articles.About Us Studying 
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/study/doc/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/BuDoc.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%8D%87%E5%AD%B8">升學</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        <div id="ContentCard-tag"><a href="/categories/%E5%8D%87%E5%AD%B8">升學</a> </div>
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/study/doc/">110學測面試 慈濟醫學系 事前準備&#43;面試心得</a></div>
                     <div id="ContentCard-textoverflow"><p>一、整體說明
 慈濟醫5關MMI，每一關6分鐘，先統一讀題30分鐘再跑關，教授通常不追問。
@@ -1057,7 +1155,9 @@ Release Prototpye 5/22- Wake up late. Finish text of Articles.About Us Studying 
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/study/dentist/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="/img/ChinaDentist.jpg" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%8D%87%E5%AD%B8">升學</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        <div id="ContentCard-tag"><a href="/categories/%E5%8D%87%E5%AD%B8">升學</a> </div>
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/study/dentist/">110學測面試 中國醫牙醫系 事前準備&#43;面試心得</a></div>
                     <div id="ContentCard-textoverflow"><p>一、整體說明
 中國牙是三對一個面15mins，沒有術科考試。
@@ -1083,7 +1183,9 @@ Release Prototpye 5/22- Wake up late. Finish text of Articles.About Us Studying 
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/others/ttt/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=869&amp;q=80" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/others/ttt/">測試用文章</a></div>
                     <div id="ContentCard-textoverflow"><p>我拿來測試的文章 主要測試layout</p></div>
                 </div>
@@ -1093,7 +1195,9 @@ Release Prototpye 5/22- Wake up late. Finish text of Articles.About Us Studying 
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/others/twcovid/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://www.eetasia.com/wp-content/uploads/sites/2/2020/04/745b19a1-e84a-423a-8396-31041d28b39e.png" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/others/twcovid/">台灣疫情逐步失控紀錄</a></div>
                     <div id="ContentCard-textoverflow"><p>0. 台灣過去一年功勞都陳時中? 明明就是一流人民自己的自律。
 1. 國台辦說有需求就願意給疫苗，但是陸委會說不要假好心， 你怎麼對得起現在的醫護人員? 2. 再來，我們領先別人一年，但是還沒有疫苗是怎樣?
@@ -1108,7 +1212,9 @@ Release Prototpye 5/22- Wake up late. Finish text of Articles.About Us Studying 
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/others/codes/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=869&amp;q=80" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/others/codes/">Codes</a></div>
                     <div id="ContentCard-textoverflow"><p>使用 Markdown1可以效率的书写文档, 直接转换成 HTML, 你可以使用简书或者支持Markdown的编辑器进行书写。
 This link has no title attribute.
@@ -1125,7 +1231,9 @@ This link has no title attribute.
                     <div id="ContentCard-imgoverflow">
                         <a href="https://TonyChen91.github.io/others/webhistory/"><img class="transform hover:scale-110 transition duration-200" id="ContentCard-img" src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=869&amp;q=80" loading="lazy"></a>
                     </div>
-                    <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    <div id="ContentCard-tagoverflow" style="display: flex;justify-content: flex-end;align-items: center;">
+                        <div id="ContentCard-tag"><a href="/categories/%E5%85%B6%E4%BB%96">其他</a> </div>
+                    </div>
                     <div id="ContentCard-title"><a href="https://TonyChen91.github.io/others/webhistory/">網頁日誌</a></div>
                     <div id="ContentCard-textoverflow"><p>2020
  5/20- Try to put blank pages on Github. 5/21- /hugo commands.
