@@ -271,12 +271,30 @@
       left: 0px;
       top: 0px;
       background: #5265FF;
+      /* */ 
+      border: 3px solid #5265FF;
       border-radius: 112px;
       /* Inside auto layout */
       flex: none;
       order: 0;
       flex-grow: 0;
       margin: 0px 6px;
+    }
+    #CateBtn.unclicked{
+      background: #FFFFFF;
+      transition: 0.5s;
+    }
+    #CateBtn.unclicked a  {
+      color: #5265FF;
+      transition: 0.5s;
+    }
+    #CateBtn:hover{
+      background: #5265FF;
+      transition: 0.5s;
+    }
+    #CateBtn:hover a{
+      color: #FFFFFF;
+      transition: 0.5s;
     }
     #CateBtn a {
       position: static;
@@ -323,6 +341,7 @@
       order: 1;
       flex-grow: 0;
       margin: 0px 6px;
+      transition: 0.5s;
     }
     .CateBtn2:hover, .CateBtn2.clicked{
       background: #5265FF;
@@ -382,6 +401,7 @@
       border: 1px solid #C4C4C4;
       box-sizing: border-box;
       border-radius: 10px;
+     
     }
     /* #ContentCard-stroke {
       position: relative;
