@@ -15,7 +15,7 @@
       height: 229px;
       max-width: 100rem;
       margin-inline: auto;
-      padding-inline: 1rem;
+      /* padding-inline: 1rem; */
       /* background: #FFFFFF; */
     }
     #SectionTitle {
@@ -24,7 +24,7 @@
       height: 47px;
       /* left: 22px; */
       top: 9px;
-    
+      margin-left: 20px;
       font-family: 'Noto Serif TC', 'Arial';
       font-style: normal;
       font-weight: 700;
@@ -61,10 +61,8 @@
       padding: 10px 0px;
     
       position: absolute;
-      width: 95%;
-      /* height: 171px; */
-      /* left: 22px; */
-      /* top: 55px; */
+      width: 98%;
+      margin-left: 0.5%;    
       overflow-x: scroll;/*或用scroll*/
     }
     #projects-content-cards{
@@ -80,7 +78,7 @@
       flex: none;
       /*order: 0;有BUG*/
       flex-grow: 0;
-      margin: 0px 20px;
+      margin: 0px 8px;
     }
     #projects-content-card-btn {
       /* Auto layout */
@@ -305,7 +303,7 @@
       flex-grow: 0;
       margin: 0px 10px;
     }
-    #CateBtn2 {
+    .CateBtn2 {
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -326,7 +324,15 @@
       flex-grow: 0;
       margin: 0px 6px;
     }
-    #CateBtn2 a {
+    .CateBtn2:hover, .CateBtn2.clicked{
+      background: #5265FF;
+      transition: 0.5s;
+    }
+    .CateBtn2:hover a, .CateBtn2.clicked a  {
+      color: #FFFFFF;
+      transition: 0.5s;
+    }
+    .CateBtn2 a {
       position: relative;
       /* width: 32px; */
       height: 18px;
@@ -623,6 +629,12 @@
     /* height: 385px; */
     max-width: 100rem;
     margin-inline: auto;
-    padding-inline: 1rem;
+    /* padding-inline: 1rem; */
     margin-bottom: 50px;
+  }
+
+  #AboutSection div p {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.3rem;
   }
