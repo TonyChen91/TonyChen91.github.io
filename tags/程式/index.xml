@@ -6,7 +6,20 @@
     <description>Recent content in 程式 on Mekaku&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jun 2021 16:19:20 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/tags/%E7%A8%8B%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jan 2022 12:17:55 +0800</lastBuildDate><atom:link href="https://TonyChen91.github.io/tags/%E7%A8%8B%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>i高醫逃脫-隱私權政策</title>
+      <link>https://TonyChen91.github.io/projects/kmuescape_pp/</link>
+      <pubDate>Sun, 16 Jan 2022 12:17:55 +0800</pubDate>
+      
+      <guid>https://TonyChen91.github.io/projects/kmuescape_pp/</guid>
+      <description>Privacy Policy
+This privacy policy applies to the i高醫逃脫-密室逃脫類解謎冒險 app (hereby referred to as &amp;ldquo;Application&amp;rdquo;) for mobile devices that was created by KMU studio (hereby referred to as &amp;ldquo;Service Provider&amp;rdquo;) as a Free service. This service is intended for use &amp;ldquo;AS IS&amp;rdquo;.
+Information Collection and Use
+The Application collects information when you download and use it. This information may include information such as
+ Your device&amp;rsquo;s Internet Protocol address (e.g. IP address) The pages of the Application that you visit, the time and date of your visit, the time spent on those pages The time spent on the Application The operating system you use on your mobile device  The Application does not gather precise information about the location of your mobile device.</description>
+    </item>
+    
     <item>
       <title>教學: 如何使用Hugo在Github架網站?</title>
       <link>https://TonyChen91.github.io/articles/buildhugowebsite/</link>
